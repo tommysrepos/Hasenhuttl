@@ -5,6 +5,7 @@ body{
     min-height: 100%;
     min-width: 100%;
     margin: 0;
+    font-family: 'Premier Sans', sans-serif;
 }
 
 /* Header Styles */
@@ -27,20 +28,89 @@ body{
     padding-right: 20px;
 }
 
-#how-to-play {
+.how-to-play {
     background-color: #37003c;
     border: #37003c;
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Premier Sans', sans-serif;
 }
 
-#stats {
+.how-to-play:hover {
+    text-decoration: underline solid #FFFFFF;
+}
+
+.stats {
     background-color: #37003c;
     border: #37003c;
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Premier Sans', sans-serif;
+}
+
+.stats:hover {
+    text-decoration: underline solid #FFFFFF;
 }
 
 .logo {
-    height: 50px;
+    height: 40px;
+}
+
+/* Title Styles */
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #37003c;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.title p {
+    font-size: 24px;
+    color: #37003c;
+    margin-top: 5px;
+}
+
+/* Content Styles */
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.guessing-game {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Footer Styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #37003c;
+    height: 40px;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.footer-right-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.footer a {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;  
 }
