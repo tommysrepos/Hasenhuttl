@@ -1,0 +1,46 @@
+/* General Styles */
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #37003c;
+    padding: 10px;
+}
+
+.header-left-links {
+    display: flex;
+    align-items: center;
+}
+
+.header-right-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+#how-to-play {
+    background-color: #37003c;
+    border: #37003c;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+#stats {
+    background-color: #37003c;
+    border: #37003c;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.logo {
+    height: 50px;
+}
