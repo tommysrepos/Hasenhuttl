@@ -34,10 +34,11 @@ body{
     color: #FFFFFF;
     font-size: 18px;
     font-family: 'Premier Sans', sans-serif;
+    transition-duration: 0.5s;
 }
 
 .how-to-play:hover {
-    text-decoration: underline solid #FFFFFF;
+    color: #00ff87;
 }
 
 .stats {
@@ -46,14 +47,39 @@ body{
     color: #FFFFFF;
     font-size: 18px;
     font-family: 'Premier Sans', sans-serif;
+    transition-duration: 0.5s;
 }
 
 .stats:hover {
-    text-decoration: underline solid #FFFFFF;
+    color: #00ff87;
 }
 
 .logo {
     height: 40px;
+}
+
+/* Modal Styles */
+.modal{
+    padding: 1em;
+    max-width: 50ch;
+    border-color: #37003c;
+}
+.modal::backdrop{
+    background: gray;
+    opacity: 0.5;
+}
+
+.modal-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.how-to-play-hide{
+    /* margin-top: 5px;
+    margin-right: 5px; */
+    height: 30px;
+    width: auto;
 }
 
 /* Title Styles */
@@ -140,3 +166,5 @@ input {
 a:hover {
   text-decoration: underline;  
 }
+
+/* Javascript DOM styles */

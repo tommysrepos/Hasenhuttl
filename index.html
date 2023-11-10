@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
     <link href="https://fonts.cdnfonts.com/css/premier-sans" rel="stylesheet">
 </head>
 
@@ -18,7 +19,29 @@
             <button class="stats">Stats</button>
         </div>
      </div>
-
+     <dialog class="how-to-play-modal modal">
+        <div class="modal-flex">
+            <h2>How to play</h2>
+            <button class="how-to-play-hide">&times;</button>
+        </div>
+        <p>Guess the mystery player in under eight tries. click the show silhouette button to help narrow down your guess. After each guess, you will be given clues.</p>
+        <ul>
+            <li>Green in any category is a match</li>
+            <li>A yellow in the team category means the player used to play for that team.</li>
+            <li>An arrow in the age or jersey number category indicates a higher or lower number</li>
+        </ul>
+     </dialog>
+     <dialog class="stats-modal modal">
+        <div class="modal-flex">
+            <h2>Stats</h2>
+            <button class="stats-hide">&times;</button>
+        </div>
+        <ol>
+            <li>Wins:</li>
+            <li>Average guesses to win:</li>
+            <li>Streak:</li>
+        </ol>
+     </dialog>
      <div class="title">
         <h1>Hasenhüttl</h1>
         <p>Premier League Player Guessing Game</p>
@@ -27,6 +50,10 @@
      <div class="content">
         <div class="guessing-game">
             <button class="player-silhouette-button">Show Silhouette</button>
+            <dialog class="player-silhouette-modal modal">
+                <p>player picture here</p>
+                <button class="player-silhouette-hide">&times;</button>
+            </dialog>
             <input type="text" placeholder="Guess 1 of 8">
         </div>    
     </div>
