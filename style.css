@@ -63,6 +63,9 @@ body{
     padding: 1em;
     max-width: 50ch;
     border-color: #37003c;
+    border-radius: 5px;
+    font-size: 22px;
+
 }
 .modal::backdrop{
     background: gray;
@@ -75,11 +78,14 @@ body{
     align-items: center;
 }
 
-.how-to-play-hide{
+.how-to-play-hide, .stats-hide{
     /* margin-top: 5px;
     margin-right: 5px; */
     height: 30px;
     width: auto;
+    background-color: #FFFFFF;
+    border: 0px;
+    font-size: 25px;
 }
 
 /* Title Styles */
