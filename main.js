@@ -36,7 +36,7 @@ playerSilhouetteHide.addEventListener('click', () =>{
     playerSilhouetteModal.close();
 })
 
-//----------Player Input Storage----------
+//----------User Input Storage----------
 const playerGuess = document.querySelector('input');
 let userChoice = ''
 
@@ -45,3 +45,26 @@ playerGuess.addEventListener('change', () =>{
     console.log(userChoice)
     
 });
+
+//----------Premier League Player data----------
+const playerList = [
+    {
+        name:'Erling Haaland',
+        nationality:'Norwegian',
+        position: 'FWD',
+        age: 23,
+        number: 9
+    },
+    {
+        name:'Martin Odegaard',
+        nationality:'Norwegian',
+        position: 'MID',
+        age: 24,
+        number: 8
+    }
+]
+
+//----------Mystery Player----------
+let mysteryPlayer = playerList[Math.floor(Math.random()*2)];
+console.log(mysteryPlayer);
+console.log(mysteryPlayer.name)
