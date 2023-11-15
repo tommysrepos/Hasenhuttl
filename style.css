@@ -111,7 +111,8 @@ h1 {
 /* Content Styles */
 .content {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
 }
 
@@ -123,7 +124,9 @@ h1 {
 }
 
 .player-silhouette-button {
+    max-width: 10%;
     padding: 10px;
+    margin-bottom: 10px;
     font-family: 'Premier Sans', sans-serif;
     font-size: 20px;
     color: #FFFFFF;
@@ -139,7 +142,7 @@ h1 {
 }
 
 input {
-    width: 500%;
+    min-width: 90%;
     height: 50px;
     border: #37003c solid 1px;
     border-radius: 10px;
