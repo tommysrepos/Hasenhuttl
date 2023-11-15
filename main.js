@@ -42,8 +42,8 @@ let userChoice = ''
 
 playerGuess.addEventListener('change', () =>{
     let userChoice = document.querySelector('input').value
-    console.log(userChoice)
-    
+    console.log('User choice: ' + userChoice)
+    guessingGame(userChoice);
 });
 
 //----------Premier League Player data----------
@@ -67,4 +67,13 @@ const playerList = [
 //----------Mystery Player----------
 let mysteryPlayer = playerList[Math.floor(Math.random()*2)];
 console.log(mysteryPlayer);
-console.log(mysteryPlayer.name)
+console.log('Mystery Player: ' + mysteryPlayer.name)
+
+//----------Guessing Game----------
+function guessingGame(userChoice){
+    if (userChoice === mysteryPlayer.name){
+        console.log('true')
+    }else{
+        console.log('false');
+    }
+}
