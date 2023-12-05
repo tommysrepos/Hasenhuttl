@@ -142,13 +142,42 @@ h1 {
 }
 
 input {
-    min-width: 90%;
+    min-width: 70%;
     height: 50px;
     border: #37003c solid 1px;
     border-radius: 10px;
     font-size: 18px;
 }
 
+/* Dynamic Hint Bar Styles */
+#hint-container{
+    overflow-y: scroll;
+    max-height: 300px;
+    min-width: 90%;
+}
+
+.hint-bar{
+    display: grid;
+    grid-template-rows: 90%;
+    /* grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: 300px 100px 100px 100px 100px 100px;
+    gap: 20px;
+    place-content: center;
+    background-color: white;
+    height: 80px;
+    min-width: 90%;
+    margin-top: 10px;
+}
+
+.clue-card{
+    height: 100%;
+    width: auto;
+    background-color: lightgray;
+}
+
+.hint-bar-name{
+    background-color: lightgray;
+}
 /* Footer Styles */
 .footer {
     display: flex;
