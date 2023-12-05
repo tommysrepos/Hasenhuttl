@@ -46,10 +46,12 @@ playerGuess.addEventListener('change', () =>{
     guessingGame(userChoice);
 });
 
+
 //----------Premier League Player data----------
 const playerList = [
     {
         name:'Erling Haaland',
+        team: 'MCI',
         nationality:'Norwegian',
         position: 'FWD',
         age: 23,
@@ -58,6 +60,7 @@ const playerList = [
     {
         name:'Martin Odegaard',
         nationality:'Norwegian',
+        team: 'ARS',
         position: 'MID',
         age: 24,
         number: 8
@@ -70,10 +73,64 @@ console.log(mysteryPlayer);
 console.log('Mystery Player: ' + mysteryPlayer.name)
 
 //----------Guessing Game----------
+
 function guessingGame(userChoice){
     if (userChoice === mysteryPlayer.name){
         console.log('true')
     }else{
         console.log('false');
     }
+    hintGenerator();
 }
+
+//----------Dynamically Adding Hint Bar----------
+const hintContainer = document.querySelector('#hint-container');
+
+function hintGenerator(){
+    const hint = document.createElement('div');
+    hint.classList.add('hint-bar');
+    hintContainer.appendChild(hint);
+
+    const hintBar = document.getElementsByClassName('hint-bar');
+    
+    for(let i = 0; i<hintBar.length; i++){
+        const clueCard = document.createElement('div');
+        clueCard.classList.add('clue-card', 'hint-bar-name');
+        hintBar[i].appendChild(clueCard);
+
+        // const clueCard2 = document.createElement('div');
+        // clueCard2.classList.add('clue-card', 'hint-bar-team');
+        // hintBar[i].appendChild(clueCard2);
+
+        // const clueCard3 = document.createElement('div');
+        // clueCard3.classList.add('clue-card', 'hint-bar-nationality');
+        // hintBar[i].appendChild(clueCard3);
+
+        // const clueCard4 = document.createElement('div');
+        // clueCard4.classList.add('clue-card', 'hint-bar-pos');
+        // hintBar[i].appendChild(clueCard4);
+
+        // const clueCard5 = document.createElement('div');
+        // clueCard5.classList.add('clue-card', 'hint-bar-age');
+        // hintBar[i].appendChild(clueCard5);
+
+        // const clueCard6 = document.createElement('div');
+        // clueCard6.classList.add('clue-card', 'hint-bar-number');
+        // hintBar[i].appendChild(clueCard6);
+    }
+}
+
+// function hintGenerator(){
+//     const hint = document.createElement('div');
+//     hint.classList.add('hint-bar');
+//     hintContainer.appendChild(hint);
+
+//     const hintBar = document.querySelector('.hint-bar');
+//     const clueCard = document.createElement('div');
+//     clueCard.classList.add('clue-card', 'hint-bar-name');
+//     hintBar.appendChild(clueCard);
+
+//     const clueCard2 = document.createElement('div');
+//     clueCard2.classList.add('clue-card', 'hint-bar-team');
+//     hintBar.appendChild(clueCard2);
+// }
