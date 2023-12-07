@@ -3,6 +3,8 @@ Premier League guess-the-player app
 
 Changelog (MM/DD/YY):
 
+12/05/23 - Created logic that will loop through the playerList comparing the userChoice to the property name value of each object in the playerlist. When userChoice matches the current loop iteration's name value, it will compare the current iteration to the mystery player name value. If they are the same, the class '.match' will be added to the clue card changing the background colour to green. If they are not the same, '.match' will not be added. Text content displaying the property value of the current clue card.
+
 12/05/23 - Created div .hint-container that holds the hint bars for each guess. Added overflow scroll on y-axis to keep the hint bars condensed. Created function hintGenerator() which is called when the listener on playerGuess is triggered. This function will create a hintbar and divs for player name, team, nationality, position, age, jersey number. The hintbar will be appended to the hint container. The various divs will be appended to the hintbar.
 
 11/14/23 - Created base of logic for the guessing game. Stored input value inside a variable userChoice. Created array of objects containing two premier league players with relevant keys and values. Created variable that randomly selects one of the player objects and stored it in mysteryPlayer. Created function called guessingGame which checks to see if userChoice === mysteryPlayer. Fixed CSS positioning of sillhouette button and input so that it shrinks with page.
@@ -21,4 +23,5 @@ To-do List:
 - ~~Create game which displays the hint bar with categories.~~
 - ~~Creat functionality for comparing the user's guessed player to the mystery player.~~
 - ~~Create player object to test the game.~~
+- Repeat same logic used for clueCard3 for all the clue cards on the hint bar.
 - Fix issue where player name, team, nationality, position, age, jersey number divs are being appended to EVERY hintbar instead of only the last child of the parent node which is what I understand it should be doing.
