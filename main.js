@@ -103,7 +103,11 @@ function hintGenerator(userChoice){
     for(let i = 0; i<hintBar.length; i++){
         const clueCard = document.createElement('div');
         clueCard.classList.add('clue-card', 'hint-bar-name');
+        const clueCardText = document.createElement('p');
+        clueCardText.textContent = `${userChoice}`;
+        clueCard.appendChild(clueCardText);
         hintBar[i].appendChild(clueCard);
+        
 
         // const clueCard2 = document.createElement('div');
         // clueCard2.classList.add('clue-card', 'hint-bar-team');
@@ -111,17 +115,19 @@ function hintGenerator(userChoice){
 
         const clueCard3 = document.createElement('div');
         clueCard3.classList.add('clue-card', 'hint-bar-nationality');
+        const clueCard3Text = document.createElement('p')
         // nationalityChecker(userChoice);
         for(let j = 0; j < playerList.length; j++){
             if(userChoice == playerList[j].name){
                 if(playerList[j].nationality == mysteryPlayer.nationality){
                     clueCard3.classList.add('match');
-                    clueCard3.textContent = `${playerList[j].nationality}`
+                    clueCard3Text.textContent = `${playerList[j].nationality}`
                 }else{
-                    clueCard3.textContent = `${playerList[j].nationality}`
+                    clueCard3Text.textContent = `${playerList[j].nationality}`
                 }
             }
         }
+        clueCard3.appendChild(clueCard3Text);
         hintBar[i].appendChild(clueCard3);
 
         // const clueCard4 = document.createElement('div');
