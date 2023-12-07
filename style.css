@@ -173,6 +173,10 @@ input {
     height: 100%;
     width: auto;
     background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
 }
 
 .hint-bar-name{
@@ -180,7 +184,12 @@ input {
 }
 
 .match{
+    display: flex;
     background-color: #228B22;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    color: white;
 }
 /* Footer Styles */
 .footer {
