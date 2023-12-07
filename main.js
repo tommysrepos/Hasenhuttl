@@ -52,23 +52,30 @@ const playerList = [
     {
         name:'Erling Haaland',
         team: 'MCI',
-        nationality:'Norwegian',
+        nationality:'Norway',
         position: 'FWD',
         age: 23,
         number: 9
     },
     {
         name:'Martin Odegaard',
-        nationality:'Norwegian',
+        nationality:'Norway',
         team: 'ARS',
         position: 'MID',
         age: 24,
         number: 8
+    },
+    {
+        name: 'Ross Barkley',
+        nationality: 'England',
+        team: 'LUT',
+        age: 30,
+        number: 6
     }
 ]
 
 //----------Mystery Player----------
-let mysteryPlayer = playerList[Math.floor(Math.random()*2)];
+let mysteryPlayer = playerList[Math.floor(Math.random()*playerList.length)];
 console.log(mysteryPlayer);
 console.log('Mystery Player: ' + mysteryPlayer.name)
 
@@ -80,13 +87,13 @@ function guessingGame(userChoice){
     }else{
         console.log('false');
     }
-    hintGenerator();
+    hintGenerator(userChoice);
 }
 
 //----------Dynamically Adding Hint Bar----------
 const hintContainer = document.querySelector('#hint-container');
 
-function hintGenerator(){
+function hintGenerator(userChoice){
     const hint = document.createElement('div');
     hint.classList.add('hint-bar');
     hintContainer.appendChild(hint);
@@ -102,9 +109,20 @@ function hintGenerator(){
         // clueCard2.classList.add('clue-card', 'hint-bar-team');
         // hintBar[i].appendChild(clueCard2);
 
-        // const clueCard3 = document.createElement('div');
-        // clueCard3.classList.add('clue-card', 'hint-bar-nationality');
-        // hintBar[i].appendChild(clueCard3);
+        const clueCard3 = document.createElement('div');
+        clueCard3.classList.add('clue-card', 'hint-bar-nationality');
+        // nationalityChecker(userChoice);
+        for(let j = 0; j < playerList.length; j++){
+            if(userChoice == playerList[j].name){
+                if(playerList[j].nationality == mysteryPlayer.nationality){
+                    clueCard3.classList.add('match');
+                    clueCard3.textContent = `${playerList[j].nationality}`
+                }else{
+                    clueCard3.textContent = `${playerList[j].nationality}`
+                }
+            }
+        }
+        hintBar[i].appendChild(clueCard3);
 
         // const clueCard4 = document.createElement('div');
         // clueCard4.classList.add('clue-card', 'hint-bar-pos');
@@ -120,17 +138,12 @@ function hintGenerator(){
     }
 }
 
-// function hintGenerator(){
-//     const hint = document.createElement('div');
-//     hint.classList.add('hint-bar');
-//     hintContainer.appendChild(hint);
-
-//     const hintBar = document.querySelector('.hint-bar');
-//     const clueCard = document.createElement('div');
-//     clueCard.classList.add('clue-card', 'hint-bar-name');
-//     hintBar.appendChild(clueCard);
-
-//     const clueCard2 = document.createElement('div');
-//     clueCard2.classList.add('clue-card', 'hint-bar-team');
-//     hintBar.appendChild(clueCard2);
+// function nationalityChecker(userChoice){
+//     for(let i = 0; i < playerList.length; i++){
+//         if(userChoice == playerList[i].name){
+//             if(playerList[i].nationality == mysteryPlayer.nationality){
+//                 clueCard3.classList.add('match');
+//             }
+//         }
+//     }
 // }
