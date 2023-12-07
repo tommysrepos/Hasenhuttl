@@ -178,6 +178,10 @@ input {
 .hint-bar-name{
     background-color: lightgray;
 }
+
+.match{
+    background-color: #228B22;
+}
 /* Footer Styles */
 .footer {
     display: flex;
