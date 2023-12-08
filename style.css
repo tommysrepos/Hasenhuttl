@@ -180,7 +180,7 @@ input {
 }
 
 .hint-bar-name{
-    background-color: lightgray;
+    background-color: #FFFFFF;
 }
 
 .match{
@@ -190,6 +190,10 @@ input {
     justify-content: center;
     font-size: larger;
     color: white;
+}
+
+.almost-match{
+    background-color: #FFD300;
 }
 /* Footer Styles */
 .footer {
