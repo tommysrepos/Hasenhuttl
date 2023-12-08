@@ -3,6 +3,12 @@ Premier League guess-the-player app
 
 Changelog (MM/DD/YY):
 
+12/08/23 - Created datalist to display the playerList.name values that correspond with what the user has typed into the input. Created javascript logic to dynamically generate option elements and assign playerList.name value to them.
+
+Created '.almost-match' class to change the team cluecard background-color to yellow if the mystery player used to play for the team of the userChoice player. '.almost-match' classlist is added to a clue card if mysteryPlayer.previousTeam.includes(playerList[i].team) is true.
+
+Created previousTeam property and value for all playerList objects.
+
 12/07/23 - Added styling to the '.match' cards that will display white font colour against the green background. Added styling to all clue cards to increase the font size and center the text content with flex display.
 
 Changed textContent from appending directly to clueCard3 to a p tag which will be appended to clueCard3 (makes styling the text possible).
@@ -32,6 +38,6 @@ To-do List:
 - ~~Creat functionality for comparing the user's guessed player to the mystery player.~~
 - ~~Create player object to test the game.~~
 - ~~Repeat same logic used for clueCard3 for all the clue cards on the hint bar.~~
--Add dropdown for input which shows the available playerList.name matching the characters that the user has typed in the input.
+-~~Add dropdown for input which shows the available playerList.name matching the characters that the user has typed in the input.~~
 -Set the event listener to trigger only when a playerList.name has been entered or clicked on from the dropdown.
 - Fix issue where player name, team, nationality, position, age, jersey number divs are being appended to EVERY hintbar instead of only the last child of the parent node which is what I understand it should be doing.
