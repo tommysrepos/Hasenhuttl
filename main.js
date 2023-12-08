@@ -48,6 +48,7 @@ playerGuess.addEventListener('change', () =>{
     let userChoice = document.querySelector('input').value
     console.log('User choice: ' + userChoice)
     guessingGame(userChoice);
+
 });
 
 
@@ -73,6 +74,7 @@ const playerList = [
         name: 'Ross Barkley',
         nationality: 'England',
         team: 'LUT',
+        position: 'MID',
         age: 30,
         number: 6
     }
@@ -82,6 +84,14 @@ const playerList = [
 let mysteryPlayer = playerList[Math.floor(Math.random()*playerList.length)];
 console.log(mysteryPlayer);
 console.log('Mystery Player: ' + mysteryPlayer.name)
+
+//----------Dynamic input options----------
+const list = document.getElementById('players');
+playerList.forEach(function(playerListValue){
+    const option = document.createElement('option');
+    option.value = playerListValue.name;
+    list.appendChild(option);
+});
 
 //----------Guessing Game----------
 
