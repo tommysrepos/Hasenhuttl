@@ -9,6 +9,8 @@ Changed textContent from appending directly to clueCard3 to a p tag which will b
 
 Create p element and create text content containing format string userChoice and append it to the clue card with '.hint-bar-name' class. This will display the user's guess on every iteration of the hintbar.
 
+Created logic to compare userChoice player's team, position, age, and jersey number to the mystery player's. The player's guess and the team, position, age, and jersey number will be appended to the clue cards. If there is a match, the class '.match' will be added to the corresponding clue card. Variables created for utf characters of up and down arrows. If the age or jersey number of the userChoice player does not match the mystery player, an arrow pointing towards the mystery player's value will be appended to the age and jersey number clue cards. 
+
 12/06/23 - Created logic that will loop through the playerList comparing the userChoice to the property name value of each object in the playerlist. When userChoice matches the current loop iteration's name value, it will compare the current iteration to the mystery player name value. If they are the same, the class '.match' will be added to the clue card changing the background colour to green. If they are not the same, '.match' will not be added. Text content displaying the property value of the current clue card.
 
 12/05/23 - Created div .hint-container that holds the hint bars for each guess. Added overflow scroll on y-axis to keep the hint bars condensed. Created function hintGenerator() which is called when the listener on playerGuess is triggered. This function will create a hintbar and divs for player name, team, nationality, position, age, jersey number. The hintbar will be appended to the hint container. The various divs will be appended to the hintbar.
@@ -29,5 +31,7 @@ To-do List:
 - ~~Create game which displays the hint bar with categories.~~
 - ~~Creat functionality for comparing the user's guessed player to the mystery player.~~
 - ~~Create player object to test the game.~~
-- Repeat same logic used for clueCard3 for all the clue cards on the hint bar.
+- ~~Repeat same logic used for clueCard3 for all the clue cards on the hint bar.~~
+-Add dropdown for input which shows the available playerList.name matching the characters that the user has typed in the input.
+-Set the event listener to trigger only when a playerList.name has been entered or clicked on from the dropdown.
 - Fix issue where player name, team, nationality, position, age, jersey number divs are being appended to EVERY hintbar instead of only the last child of the parent node which is what I understand it should be doing.
