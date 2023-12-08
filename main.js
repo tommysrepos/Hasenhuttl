@@ -1,3 +1,7 @@
+//----------Globabl Variables----------
+const downArrow = '\u2193'
+const upArrow = '\u2191'
+
 // how-to-play, stats, player-silhouette modal
 //----------how-to-play----------
 const howToPlayModal = document.querySelector('.how-to-play-modal');
@@ -109,38 +113,90 @@ function hintGenerator(userChoice){
         hintBar[i].appendChild(clueCard);
         
 
-        // const clueCard2 = document.createElement('div');
-        // clueCard2.classList.add('clue-card', 'hint-bar-team');
-        // hintBar[i].appendChild(clueCard2);
+        const clueCard2 = document.createElement('div');
+        clueCard2.classList.add('clue-card', 'hint-bar-team');
+        const clueCard2Text = document.createElement('p')
+        for(let i = 0; i < playerList.length; i++){
+            if(userChoice == playerList[i].name){
+                if(playerList[i].team == mysteryPlayer.team){
+                    clueCard2.classList.add('match');
+                    clueCard2Text.textContent = `${playerList[i].team}`
+                }else{
+                    clueCard2Text.textContent = `${playerList[i].team}`
+                }
+            }
+        }
+        clueCard2.appendChild(clueCard2Text);
+        hintBar[i].appendChild(clueCard2);
 
         const clueCard3 = document.createElement('div');
         clueCard3.classList.add('clue-card', 'hint-bar-nationality');
         const clueCard3Text = document.createElement('p')
         // nationalityChecker(userChoice);
-        for(let j = 0; j < playerList.length; j++){
-            if(userChoice == playerList[j].name){
-                if(playerList[j].nationality == mysteryPlayer.nationality){
+        for(let i = 0; i < playerList.length; i++){
+            if(userChoice == playerList[i].name){
+                if(playerList[i].nationality == mysteryPlayer.nationality){
                     clueCard3.classList.add('match');
-                    clueCard3Text.textContent = `${playerList[j].nationality}`
+                    clueCard3Text.textContent = `${playerList[i].nationality}`
                 }else{
-                    clueCard3Text.textContent = `${playerList[j].nationality}`
+                    clueCard3Text.textContent = `${playerList[i].nationality}`
                 }
             }
         }
         clueCard3.appendChild(clueCard3Text);
         hintBar[i].appendChild(clueCard3);
 
-        // const clueCard4 = document.createElement('div');
-        // clueCard4.classList.add('clue-card', 'hint-bar-pos');
-        // hintBar[i].appendChild(clueCard4);
+        const clueCard4 = document.createElement('div');
+        clueCard4.classList.add('clue-card', 'hint-bar-pos');
+        const clueCard4Text = document.createElement('p');
+        for(let i = 0; i < playerList.length; i++){
+            if(userChoice == playerList[i].name){
+                if(playerList[i].position == mysteryPlayer.position){
+                    clueCard4.classList.add('match');
+                    clueCard4Text.textContent = `${playerList[i].position}`
+                }else{
+                    clueCard4Text.textContent = `${playerList[i].position}`
+                }
+            }
+        }
+        clueCard4.appendChild(clueCard4Text);
+        hintBar[i].appendChild(clueCard4);
 
-        // const clueCard5 = document.createElement('div');
-        // clueCard5.classList.add('clue-card', 'hint-bar-age');
-        // hintBar[i].appendChild(clueCard5);
+        const clueCard5 = document.createElement('div');
+        clueCard5.classList.add('clue-card', 'hint-bar-age');
+        const clueCard5Text = document.createElement('p')
+        for(let i = 0; i < playerList.length; i++){
+            if(userChoice == playerList[i].name){
+                if(playerList[i].age > mysteryPlayer.age){
+                    clueCard5Text.textContent = `${downArrow} ${playerList[i].age}`
+                }else if(playerList[i].age < mysteryPlayer.age){
+                    clueCard5Text.textContent = `${upArrow} ${playerList[i].age}`
+                }else if(playerList[i].age == mysteryPlayer.age){
+                    clueCard5.classList.add('match');
+                    clueCard5Text.textContent = `${playerList[i].age}`
+                }
+            }
+        }
+        clueCard5.appendChild(clueCard5Text);
+        hintBar[i].appendChild(clueCard5);
 
-        // const clueCard6 = document.createElement('div');
-        // clueCard6.classList.add('clue-card', 'hint-bar-number');
-        // hintBar[i].appendChild(clueCard6);
+        const clueCard6 = document.createElement('div');
+        clueCard6.classList.add('clue-card', 'hint-bar-number');
+        const clueCard6Text = document.createElement('p');
+        for(let i = 0; i < playerList.length; i++){
+            if(userChoice == playerList[i].name){
+                if(playerList[i].number > mysteryPlayer.number){
+                    clueCard6Text.textContent = `${downArrow} ${playerList[i].number}`
+                }else if(playerList[i].number < mysteryPlayer.number){
+                    clueCard6Text.textContent = `${upArrow} ${playerList[i].number}`
+                }else if(playerList[i].number == mysteryPlayer.number){
+                    clueCard6.classList.add('match');
+                    clueCard6Text.textContent = `${playerList[i].number}`
+                }
+            }
+        }
+        clueCard6.appendChild(clueCard6Text);
+        hintBar[i].appendChild(clueCard6);
     }
 }
 
