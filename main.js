@@ -57,6 +57,7 @@ const playerList = [
     {
         name:'Erling Haaland',
         team: 'MCI',
+        previousTeam: '',
         nationality:'Norway',
         position: 'FWD',
         age: 23,
@@ -66,6 +67,7 @@ const playerList = [
         name:'Martin Odegaard',
         nationality:'Norway',
         team: 'ARS',
+        previousTeam: '',
         position: 'MID',
         age: 24,
         number: 8
@@ -74,9 +76,19 @@ const playerList = [
         name: 'Ross Barkley',
         nationality: 'England',
         team: 'LUT',
+        previousTeam: ['CHE', 'EVE'],
         position: 'MID',
         age: 30,
         number: 6
+    },
+    {
+        name: 'Cole Palmer',
+        nationality: 'England',
+        team: 'CHE',
+        previousTeam: 'MCI',
+        position: 'MID',
+        age: 21,
+        number: 20
     }
 ]
 
@@ -130,6 +142,9 @@ function hintGenerator(userChoice){
             if(userChoice == playerList[i].name){
                 if(playerList[i].team == mysteryPlayer.team){
                     clueCard2.classList.add('match');
+                    clueCard2Text.textContent = `${playerList[i].team}`
+                }else if(mysteryPlayer.previousTeam.includes(playerList[i].team)){
+                    clueCard2.classList.add('almost-match');
                     clueCard2Text.textContent = `${playerList[i].team}`
                 }else{
                     clueCard2Text.textContent = `${playerList[i].team}`
