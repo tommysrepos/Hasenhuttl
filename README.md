@@ -3,6 +3,10 @@ Premier League guess-the-player app
 
 Changelog (MM/DD/YY):
 
+12/09/23 - Fixed bug that caused extra clue cards to be appended by removing an unnecessary loop appending hintBar[i] for the length of hintbar.
+
+Added comments to organize hintGenerator() function and increase readability of clue cards. Removed commented out function that was not going to be used. Removed commented out html elements that were not going to be used.
+
 12/08/23 - Created datalist to display the playerList.name values that correspond with what the user has typed into the input. Created javascript logic to dynamically generate option elements and assign playerList.name value to them.
 
 Created '.almost-match' class to change the team cluecard background-color to yellow if the mystery player used to play for the team of the userChoice player. '.almost-match' classlist is added to a clue card if mysteryPlayer.previousTeam.includes(playerList[i].team) is true.
@@ -43,5 +47,9 @@ To-do List:
 - ~~Create player object to test the game.~~
 - ~~Repeat same logic used for clueCard3 for all the clue cards on the hint bar.~~
 -~~Add dropdown for input which shows the available playerList.name matching the characters that the user has typed in the input.~~
--Set the event listener to trigger only when a playerList.name has been entered or clicked on from the dropdown.
-- Fix issue where player name, team, nationality, position, age, jersey number divs are being appended to EVERY hintbar instead of only the last child of the parent node which is what I understand it should be doing.
+-~~Set the event listener to trigger only when a playerList.name has been entered or clicked on from the dropdown.~~
+- ~~Fix issue where player name, team, nationality, position, age, jersey number divs are being appended to EVERY hintbar instead of only the last child of the parent node which is what I understand it should be doing.~~
+- Change hint bar styling from grid to flex so that it shrinks with input and is more accessible to smaller screens.
+- Add logic to end guessing game when the user guesses the mystery player.
+- Add modal that pops up when the user guesses the mystery player.
+- Get playerList values for all premier league players through an existing API or web scraping with python.
