@@ -9,6 +9,10 @@ Created '.almost-match' class to change the team cluecard background-color to ye
 
 Created previousTeam property and value for all playerList objects.
 
+Created lives and guesses variables. Guesses go up by 1 everytime a userChoice is entered. The lives go down by 1 everytime the userChoice does not equal the mysteryPlayer.name. Added logic so that the guessingGame() will only be called in the input event listener if lives > 0.
+
+Created function playerNameChecker(userChoice) to test two things. If the userChoice belongs in the playerList as a name value AND if the userChoice has not been guessed previously. If both of these are true, proceed to guessingGame.
+
 12/07/23 - Added styling to the '.match' cards that will display white font colour against the green background. Added styling to all clue cards to increase the font size and center the text content with flex display.
 
 Changed textContent from appending directly to clueCard3 to a p tag which will be appended to clueCard3 (makes styling the text possible).
