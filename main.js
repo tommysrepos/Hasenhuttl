@@ -1,6 +1,9 @@
 //----------Globabl Variables----------
 const downArrow = '\u2193'
 const upArrow = '\u2191'
+let lives = 8;
+let guesses = 0;
+let storedGuesses = [];
 
 // how-to-play, stats, player-silhouette modal
 //----------how-to-play----------
@@ -47,8 +50,9 @@ let userChoice = ''
 playerGuess.addEventListener('change', () =>{
     let userChoice = document.querySelector('input').value
     console.log('User choice: ' + userChoice)
-    guessingGame(userChoice);
-
+    if(lives > 0 && playerNameChecker(userChoice) == true){
+        guessingGame(userChoice);
+    }
 });
 
 
@@ -109,9 +113,16 @@ playerList.forEach(function(playerListValue){
 
 function guessingGame(userChoice){
     if (userChoice === mysteryPlayer.name){
-        console.log('true')
+        guesses += 1;
+        console.log(`Guesses: ${guesses} \n lives: ${lives}`);
     }else{
-        console.log('false');
+        lives -= 1;
+        guesses += 1;
+        console.log(`Guesses: ${guesses} \n lives: ${lives}`);
+    };
+    playerGuess.setAttribute("placeholder", `Guess ${guesses + 1} of 8`);
+    if(guesses >= 8){
+        playerGuess.setAttribute("placeholder", "Try again tomorrow at 12:00am EST"); //Keep placeholder static if the user loses.
     }
     hintGenerator(userChoice);
 }
@@ -225,6 +236,19 @@ function hintGenerator(userChoice){
     }
 }
 
+//----------Rules for userChoice to proceed to guessingGame----------
+
+function playerNameChecker(userChoice){
+    for(i=0; i< playerList.length; i++){
+        if(playerList[i].name == userChoice){ //Checks if the user's guess is in the playerList. If not, ignore.
+            if(storedGuesses.includes(userChoice) == false){ //Checks if the user's guess has been used already. If so, ignore.
+                storedGuesses.push(userChoice);
+                console.log(storedGuesses);
+                return true;
+            }
+        }
+    }
+}
 // function nationalityChecker(userChoice){
 //     for(let i = 0; i < playerList.length; i++){
 //         if(userChoice == playerList[i].name){
