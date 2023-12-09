@@ -135,17 +135,15 @@ function hintGenerator(userChoice){
     hint.classList.add('hint-bar');
     hintContainer.appendChild(hint);
 
-    const hintBar = document.getElementsByClassName('hint-bar');
-    
-    for(let i = 0; i<hintBar.length; i++){
+    //----------name----------
         const clueCard = document.createElement('div');
         clueCard.classList.add('clue-card', 'hint-bar-name');
         const clueCardText = document.createElement('p');
         clueCardText.textContent = `${userChoice}`;
         clueCard.appendChild(clueCardText);
-        hintBar[i].appendChild(clueCard);
+        hint.appendChild(clueCard);
         
-
+    //----------team----------
         const clueCard2 = document.createElement('div');
         clueCard2.classList.add('clue-card', 'hint-bar-team');
         const clueCard2Text = document.createElement('p')
@@ -163,8 +161,9 @@ function hintGenerator(userChoice){
             }
         }
         clueCard2.appendChild(clueCard2Text);
-        hintBar[i].appendChild(clueCard2);
+        hint.appendChild(clueCard2);
 
+    //----------nationality----------
         const clueCard3 = document.createElement('div');
         clueCard3.classList.add('clue-card', 'hint-bar-nationality');
         const clueCard3Text = document.createElement('p')
@@ -180,8 +179,9 @@ function hintGenerator(userChoice){
             }
         }
         clueCard3.appendChild(clueCard3Text);
-        hintBar[i].appendChild(clueCard3);
+        hint.appendChild(clueCard3);
 
+    //----------position----------
         const clueCard4 = document.createElement('div');
         clueCard4.classList.add('clue-card', 'hint-bar-pos');
         const clueCard4Text = document.createElement('p');
@@ -196,8 +196,9 @@ function hintGenerator(userChoice){
             }
         }
         clueCard4.appendChild(clueCard4Text);
-        hintBar[i].appendChild(clueCard4);
+        hint.appendChild(clueCard4);
 
+    //----------age----------
         const clueCard5 = document.createElement('div');
         clueCard5.classList.add('clue-card', 'hint-bar-age');
         const clueCard5Text = document.createElement('p')
@@ -214,8 +215,9 @@ function hintGenerator(userChoice){
             }
         }
         clueCard5.appendChild(clueCard5Text);
-        hintBar[i].appendChild(clueCard5);
+        hint.appendChild(clueCard5);
 
+    //----------number----------
         const clueCard6 = document.createElement('div');
         clueCard6.classList.add('clue-card', 'hint-bar-number');
         const clueCard6Text = document.createElement('p');
@@ -232,9 +234,8 @@ function hintGenerator(userChoice){
             }
         }
         clueCard6.appendChild(clueCard6Text);
-        hintBar[i].appendChild(clueCard6);
+        hint.appendChild(clueCard6);
     }
-}
 
 //----------Rules for userChoice to proceed to guessingGame----------
 
@@ -249,12 +250,3 @@ function playerNameChecker(userChoice){
         }
     }
 }
-// function nationalityChecker(userChoice){
-//     for(let i = 0; i < playerList.length; i++){
-//         if(userChoice == playerList[i].name){
-//             if(playerList[i].nationality == mysteryPlayer.nationality){
-//                 clueCard3.classList.add('match');
-//             }
-//         }
-//     }
-// }
