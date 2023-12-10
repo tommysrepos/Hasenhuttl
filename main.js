@@ -43,6 +43,14 @@ playerSilhouetteHide.addEventListener('click', () =>{
     playerSilhouetteModal.close();
 })
 
+//----------reveal-mystery-player----------
+const revealMysteryPlayer = document.querySelector('.reveal-mystery-player');
+const hideMysteryPlayer = document.querySelector('.reveal-hide');
+const headerForMysteryPlayer = document.getElementById('reveal-info')
+hideMysteryPlayer.addEventListener('click', () =>{
+    revealMysteryPlayer.close();
+})
+
 //----------User Input Storage----------
 const playerGuess = document.querySelector('input');
 let userChoice = ''
@@ -53,6 +61,7 @@ playerGuess.addEventListener('change', () =>{
     if(lives > 0 && playerNameChecker(userChoice) == true){
         guessingGame(userChoice);
     }
+    document.getElementById('player-guess').value = '';
 });
 
 
@@ -113,16 +122,39 @@ playerList.forEach(function(playerListValue){
 
 function guessingGame(userChoice){
     if (userChoice === mysteryPlayer.name){
+        document.getElementById('player-guess').disabled = true;
         guesses += 1;
         console.log(`Guesses: ${guesses} \n lives: ${lives}`);
+        playerGuess.setAttribute("placeholder", "Play again tomorrow at 12:00am EST");
+
+        const gameOverText = document.createElement('p');
+        gameOverText.textContent = `Congratulations, you guessed correctly. The mystery player was ${mysteryPlayer.name}.`
+
+        const gameOverHeader = document.createElement('h2');
+        gameOverHeader.textContent = 'You won!'
+
+        headerForMysteryPlayer.appendChild(gameOverHeader);
+        revealMysteryPlayer.prepend(headerForMysteryPlayer);
+        revealMysteryPlayer.appendChild(gameOverText);
+        revealMysteryPlayer.showModal();
     }else{
         lives -= 1;
         guesses += 1;
         console.log(`Guesses: ${guesses} \n lives: ${lives}`);
+        playerGuess.setAttribute("placeholder", `Guess ${guesses + 1} of 8`);
     };
-    playerGuess.setAttribute("placeholder", `Guess ${guesses + 1} of 8`);
     if(guesses >= 8){
-        playerGuess.setAttribute("placeholder", "Try again tomorrow at 12:00am EST"); //Keep placeholder static if the user loses.
+        playerGuess.setAttribute("placeholder", "Play again tomorrow at 12:00am EST"); //Keep placeholder static if the user loses.
+        const gameOverText = document.createElement('p');
+        gameOverText.textContent = `Unlucky, you guessed incorrectly. The mystery player was ${mysteryPlayer.name}.`
+
+        const gameOverHeader = document.createElement('h2');
+        gameOverHeader.textContent = 'You lost.'
+
+        headerForMysteryPlayer.appendChild(gameOverHeader);
+        revealMysteryPlayer.prepend(headerForMysteryPlayer);
+        revealMysteryPlayer.appendChild(gameOverText);
+        revealMysteryPlayer.showModal();
     }
     hintGenerator(userChoice);
 }
