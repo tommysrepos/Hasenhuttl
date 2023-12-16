@@ -36,6 +36,7 @@ const playerSilhouetteShow = document.querySelector('.player-silhouette-button')
 const playerSilhouetteHide = document.querySelector('.player-silhouette-hide');
 
 playerSilhouetteShow.addEventListener('click', () =>{
+    document.getElementById('player-picture-here').setAttribute('src', mysteryPlayer.image);
     playerSilhouetteModal.showModal();
 });
 
@@ -74,7 +75,8 @@ const playerList = [
         nationality:'Norway',
         position: 'FWD',
         age: 23,
-        number: 9
+        number: 9,
+        image: 'https://fbref.com/req/202302030/images/headshots/1f44ac21_2022.jpg'
     },
     {
         name:'Martin Odegaard',
@@ -83,7 +85,8 @@ const playerList = [
         previousTeam: '',
         position: 'MID',
         age: 24,
-        number: 8
+        number: 8,
+        image: 'https://fbref.com/req/202302030/images/headshots/1f44ac21_2022.jpg'
     },
     {
         name: 'Ross Barkley',
@@ -92,7 +95,8 @@ const playerList = [
         previousTeam: ['CHE', 'EVE'],
         position: 'MID',
         age: 30,
-        number: 6
+        number: 6,
+        image: 'https://fbref.com/req/202302030/images/headshots/1f44ac21_2022.jpg'
     },
     {
         name: 'Cole Palmer',
@@ -101,7 +105,8 @@ const playerList = [
         previousTeam: 'MCI',
         position: 'MID',
         age: 21,
-        number: 20
+        number: 20,
+        image: 'https://fbref.com/req/202302030/images/headshots/1f44ac21_2022.jpg'
     }
 ]
 
