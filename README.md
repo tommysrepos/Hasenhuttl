@@ -3,6 +3,10 @@ Premier League guess-the-player app
 
 Changelog (MM/DD/YY):
 
+12/15/23 - Needed to remake Selenium script. Website I was using did not have premier league player images that could be turned into silhouettes. Switched to scraping the official premier league website. Completed most of the logic for selenium script, must add one exception for players who do not play/have no information.
+
+Added logic to display the mystery player image and silhouette once I have obtained it with selenium.
+
 12/09/23 - Fixed bug that caused extra clue cards to be appended by removing an unnecessary loop appending hintBar[i] for the length of hintbar.
 
 Created logic to disable the input when you win (userChoice == mysteryPlayer.name) or when you lose (guesse >= 8) which will give the illusion that the game is 'over'
