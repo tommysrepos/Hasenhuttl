@@ -78,7 +78,11 @@ body{
     align-items: center;
 }
 
-.how-to-play-hide, .stats-hide{
+#reveal-hide-button-container{
+    margin-left: auto;
+}
+
+.how-to-play-hide, .stats-hide, .player-silhouette-hide, .reveal-hide{
     /* margin-top: 5px;
     margin-right: 5px; */
     height: 30px;
@@ -123,6 +127,8 @@ h1 {
     gap: 15px;
 }
 
+/* Silhouoette Styles */
+
 .player-silhouette-button {
     max-width: 10%;
     padding: 10px;
@@ -136,13 +142,28 @@ h1 {
     transition-duration: 0.4s;
 }
 
+.player-silhouette-hide{
+    margin-left: auto;
+}
+
 .player-silhouette-button:hover {
     background-color: #00ff87;
     color: #37003c;
 }
 
-#player-picture-here{
-    filter: brightness(9%);
+#hidden-picture-here{
+    filter: brightness(0%);
+    height: 150px;
+    width: auto;
+}
+
+#reveal-picture-here{
+    height: 150px;
+    width: auto;
+}
+
+.reveal-mystery-player{
+   text-align: center;
 }
 
 input {
