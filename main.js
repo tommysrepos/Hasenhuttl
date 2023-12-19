@@ -36,7 +36,7 @@ const playerSilhouetteShow = document.querySelector('.player-silhouette-button')
 const playerSilhouetteHide = document.querySelector('.player-silhouette-hide');
 
 playerSilhouetteShow.addEventListener('click', () =>{
-    document.getElementById('player-picture-here').setAttribute('src', mysteryPlayer.image);
+    document.getElementById('hidden-picture-here').setAttribute('src', mysteryPlayer.image);
     playerSilhouetteModal.showModal();
 });
 
@@ -47,7 +47,7 @@ playerSilhouetteHide.addEventListener('click', () =>{
 //----------reveal-mystery-player----------
 const revealMysteryPlayer = document.querySelector('.reveal-mystery-player');
 const hideMysteryPlayer = document.querySelector('.reveal-hide');
-const headerForMysteryPlayer = document.getElementById('reveal-info')
+const headerForMysteryPlayer = document.getElementById('game-over-header-container')
 hideMysteryPlayer.addEventListener('click', () =>{
     revealMysteryPlayer.close();
 })
@@ -67,48 +67,44 @@ playerGuess.addEventListener('change', () =>{
 
 
 //----------Premier League Player data----------
-const playerList = [
-    {
-        name:'Erling Haaland',
-        team: 'MCI',
-        previousTeam: '',
-        nationality:'Norway',
-        position: 'FWD',
-        age: 23,
-        number: 9,
-        image: 'https://fbref.com/req/202302030/images/headshots/1f44ac21_2022.jpg'
-    },
-    {
-        name:'Martin Odegaard',
-        nationality:'Norway',
-        team: 'ARS',
-        previousTeam: '',
-        position: 'MID',
-        age: 24,
-        number: 8,
-        image: 'https://fbref.com/req/202302030/images/headshots/1f44ac21_2022.jpg'
-    },
-    {
-        name: 'Ross Barkley',
-        nationality: 'England',
-        team: 'LUT',
-        previousTeam: ['CHE', 'EVE'],
-        position: 'MID',
-        age: 30,
-        number: 6,
-        image: 'https://fbref.com/req/202302030/images/headshots/1f44ac21_2022.jpg'
-    },
-    {
-        name: 'Cole Palmer',
-        nationality: 'England',
-        team: 'CHE',
-        previousTeam: 'MCI',
-        position: 'MID',
-        age: 21,
-        number: 20,
-        image: 'https://fbref.com/req/202302030/images/headshots/1f44ac21_2022.jpg'
-    }
-]
+// const playerList = [
+//     {
+//         name:'Erling Haaland',
+//         team: 'MCI',
+//         previousTeam: '',
+//         nationality:'Norway',
+//         position: 'FWD',
+//         age: 23,
+//         number: 9
+//     },
+//     {
+//         name:'Martin Odegaard',
+//         nationality:'Norway',
+//         team: 'ARS',
+//         previousTeam: '',
+//         position: 'MID',
+//         age: 24,
+//         number: 8
+//     },
+//     {
+//         name: 'Ross Barkley',
+//         nationality: 'England',
+//         team: 'LUT',
+//         previousTeam: ['CHE', 'EVE'],
+//         position: 'MID',
+//         age: 30,
+//         number: 6
+//     },
+//     {
+//         name: 'Cole Palmer',
+//         nationality: 'England',
+//         team: 'CHE',
+//         previousTeam: 'MCI',
+//         position: 'MID',
+//         age: 21,
+//         number: 20
+//     }
+// ]
 
 //----------Mystery Player----------
 let mysteryPlayer = playerList[Math.floor(Math.random()*playerList.length)];
@@ -138,7 +134,9 @@ function guessingGame(userChoice){
         const gameOverHeader = document.createElement('h2');
         gameOverHeader.textContent = 'You won!'
 
-        headerForMysteryPlayer.appendChild(gameOverHeader);
+        document.getElementById('reveal-picture-here').setAttribute('src', mysteryPlayer.image);
+
+        headerForMysteryPlayer.prepend(gameOverHeader);
         revealMysteryPlayer.prepend(headerForMysteryPlayer);
         revealMysteryPlayer.appendChild(gameOverText);
         revealMysteryPlayer.showModal();
@@ -155,6 +153,8 @@ function guessingGame(userChoice){
 
         const gameOverHeader = document.createElement('h2');
         gameOverHeader.textContent = 'You lost.'
+
+        document.getElementById('reveal-picture-here').setAttribute('src', mysteryPlayer.image);
 
         headerForMysteryPlayer.appendChild(gameOverHeader);
         revealMysteryPlayer.prepend(headerForMysteryPlayer);
