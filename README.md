@@ -3,6 +3,16 @@ Premier League guess-the-player app
 
 Changelog (MM/DD/YY):
 
+12/19/23 - Created player-data.js as destination to write output of selenium script. Fixed spelling error in selenium script file name. 
+
+Added img element in html file to dynamically add src attribute value of mysteryPlayer.image. This will display the mystery player's picture from the premier league official website. 
+
+Created css rules to shade out the mystery player's image if the user clicks show silhouette. Shows an unshaded image of the mystery player when the game is finished.
+
+Added javascript logic to add the mysteryPlayer png link from the selenium script as the src attribute to img element in HTML.
+
+Fixed a few more bugs in the selenium script. Needed to add exceptions for when specific elements were missing from a player's profile. Also fixed the get_element selectors from XPATH to a more general approach because some player profiles had inconsistent DOM structures. Write the output of the selenium script to player-data.js. Overwrite the output every iteration of the script.
+
 12/15/23 - Needed to remake Selenium script. Website I was using did not have premier league player images that could be turned into silhouettes. Switched to scraping the official premier league website. Completed most of the logic for selenium script, must add one exception for players who do not play/have no information.
 
 Added logic to display the mystery player image and silhouette once I have obtained it with selenium.
