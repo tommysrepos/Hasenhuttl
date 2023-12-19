@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 import time
+import json
 
 driver = webdriver.Chrome()
 driver.get('https://www.premierleague.com/players')
@@ -21,7 +22,7 @@ promotional_modal.click()
 time.sleep(2)
 
 #Store all scraped date in this list
-playerList = []
+all_player_info = []
 
 #Player scraping directions + cleaning data
 def scrape_player_info():
@@ -81,7 +82,7 @@ def scrape_player_info():
         player_history = driver.find_element(By.XPATH, '//*[@id="mainContent"]/div[2]/div/div/div[3]')
 
         #Get a list of all teams from current player's team history
-        player_previous_team = player_history.find_elements(By.XPATH, '//*[@id="mainContent"]/div[2]/div/div/div[3]/table/tbody/tr/td/a/span[3]')
+        player_previous_team = player_history.find_elements(By.CSS_SELECTOR, 'span.player-club-history__team-name--long')
 
         #Put all current player's date into a dictionary with properly labeled keys
         current_player = {}
@@ -96,11 +97,21 @@ def scrape_player_info():
         for i in range(0, len(player_previous_team)):
             if player_previous_team[i].get_attribute('innerHTML') != player_team.strip() and player_previous_team[i].get_attribute('innerHTML') not in current_player['previousTeam']:
                 current_player['previousTeam'].append(player_previous_team[i].get_attribute('innerHTML'))
-        playerList.append(current_player)
-        print(playerList)
+        all_player_info.append(current_player)
+
+        #turn all_player_info into a json
+        json_all_player_info = json.dumps(all_player_info, indent=2)
+
+        #Write all_player_info in a javascript file
+        with open('player-data.js', 'w') as playerList:
+            playerList.write(f"var playerList = {json_all_player_info} \n")
+            playerList.flush()
 
 #get player links
 player_links = driver.find_elements(By.XPATH, '//*[@id="mainContent"]/div[2]/div/div/div/table/tbody/tr/td/a')
+
+#Write playerList variable in playerList.js
+
 
 scroll_distance = 50
 scroll_2 = 5
