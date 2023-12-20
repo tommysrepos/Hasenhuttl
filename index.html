@@ -21,21 +21,23 @@
         </div>
      </div>
      <dialog class="how-to-play-modal modal">
+        <div id="how-to-play-hide-container"><button class="how-to-play-hide">&times;</button></div>
         <div class="modal-flex">
             <h2>How to play</h2>
-            <button class="how-to-play-hide">&times;</button>
         </div>
-        <p>Guess the mystery player in under eight tries. click the show silhouette button to help narrow down your guess. After each guess, you will be given clues.</p>
+        <p>Guess the mystery player in under eight tries. After each guess, you will be given clues.</p>
         <ul>
-            <li>Green in any category is a match</li>
-            <li>A yellow in the team category means the player used to play for that team.</li>
-            <li>An arrow in the age or jersey number category indicates a higher or lower number</li>
+            <li>The mystery player and each guess you make must be an active Premier League player with at least 5 appearances this season.</li>
+            <li>click the <span id="show-silhouette-preview">show silhouette</span> button to help narrow down your guess.</li>
+            <li><span id="match-preview">Green</span> in any category is a match.</li>
+            <li><span id="almost-match-preview">Yellow</span> in the team category means the player used to play for that team.</li>
+            <li>↑ or ↓ in the age or jersey # category indicates a higher or lower number.</li>
         </ul>
      </dialog>
      <dialog class="stats-modal modal">
+        <div id="stats-hide-container"><button class="stats-hide">&times;</button></div>
         <div class="modal-flex">
             <h2>Stats</h2>
-            <button class="stats-hide">&times;</button>
         </div>
         <ul>
             <li>Wins:</li>
@@ -44,9 +46,11 @@
         </ul>
      </dialog>
      <dialog class="reveal-mystery-player">
+        <div id="reveal-hide-button-container">
+            <button class="reveal-hide">&times;</button>
+        </div>
         <div id="reveal-info" class="modal-flex">
             <div id="game-over-header-container"></div>
-            <div id="reveal-hide-button-container"><button class="reveal-hide">&times;</button></div>
         </div>
         <img src="" alt="An unshaded picture of the mystery player." id="reveal-picture-here">
         
@@ -76,7 +80,6 @@
                     <div class="category">Age</div>
                     <div class="category">Jersey #</div>
                 </div>
-                <br>
             </div>
     </div>
 
@@ -86,8 +89,8 @@
         </div>
 
         <div class="footer-right-links">
-            <a href="">Github</a>
-            <a href="">Gmail</a>
+            <a href="https://github.com/tommysrepos/Hasenhuttl">Github</a>
+            <a href="mailto:tommysrepos@gmail.com">Gmail</a>
             <a href="">Twitter</a>
         </div>
     </div>
