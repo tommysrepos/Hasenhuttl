@@ -136,8 +136,7 @@ function guessingGame(userChoice){
 
         document.getElementById('reveal-picture-here').setAttribute('src', mysteryPlayer.image);
 
-        headerForMysteryPlayer.prepend(gameOverHeader);
-        revealMysteryPlayer.prepend(headerForMysteryPlayer);
+        headerForMysteryPlayer.appendChild(gameOverHeader);
         revealMysteryPlayer.appendChild(gameOverText);
         revealMysteryPlayer.showModal();
     }else{
@@ -157,7 +156,6 @@ function guessingGame(userChoice){
         document.getElementById('reveal-picture-here').setAttribute('src', mysteryPlayer.image);
 
         headerForMysteryPlayer.appendChild(gameOverHeader);
-        revealMysteryPlayer.prepend(headerForMysteryPlayer);
         revealMysteryPlayer.appendChild(gameOverText);
         revealMysteryPlayer.showModal();
     }
