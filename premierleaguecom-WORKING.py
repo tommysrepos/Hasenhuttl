@@ -35,9 +35,18 @@ def scrape_player_info():
     #Missing player default image
     missing_player = driver.find_element(By.XPATH, '//*[@id="mainContent"]/section/div[2]/div[1]/img').get_attribute('src')
 
+    #Check player appearances for 2023, convert to int
+    player_apps_2023 = driver.find_element(By.CLASS_NAME, 'player-club-history__appearances')
+    player_apps_2023 = int(player_apps_2023.text[0:2])
+
     #If current iteration has a player image, but it's the default image, pass to next iteration
     if missing_player == "https://resources.premierleague.com/premierleague/photos/players/250x250/Photo-Missing.png":
         pass
+
+    #If appearances in 2023 are less than 5, skip the player. The game is too hard otherwise
+    elif player_apps_2023 < 5:
+        pass
+
     else:
 
         try: #If current iteration is missing a jersey number, the player is not actively playing in premier league.
@@ -110,8 +119,6 @@ def scrape_player_info():
 #get player links
 player_links = driver.find_elements(By.XPATH, '//*[@id="mainContent"]/div[2]/div/div/div/table/tbody/tr/td/a')
 
-#Write playerList variable in playerList.js
-
 
 scroll_distance = 50
 scroll_2 = 5
@@ -123,14 +130,10 @@ for i in range(0,1000):
     time.sleep(1)
     player_links = driver.find_elements(By.XPATH, '//*[@id="mainContent"]/div[2]/div/div/div/table/tbody/tr/td/a')
     if i > 3:
-        # driver.execute_script("arguments[0].scrollIntoView();", player_links[i - 3])
-        driver.execute_script(f"window.scrollBy(0, {scroll_distance});")
-        time.sleep(3)
-        driver.execute_script(f"window.scrollBy(0, {scroll_2});")
-        time.sleep(2)
+        driver.execute_script("arguments[0].scrollIntoView();", player_links[i - 3])
+        time.sleep(1)
         player_links = driver.find_elements(By.XPATH, '//*[@id="mainContent"]/div[2]/div/div/div/table/tbody/tr/td/a')
-        # driver.execute_script(f"window.scrollBy(0, {scroll_2});")
-        # time.sleep(2)
         player_links = driver.find_elements(By.XPATH, '//*[@id="mainContent"]/div[2]/div/div/div/table/tbody/tr/td/a')
     print('current iteration: '+ str(i))
     print('size of player_links: '+ str(len(player_links)))
+    print(all_player_info)
