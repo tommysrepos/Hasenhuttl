@@ -12,18 +12,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Tyler Adams",
-    "team": "Bournemouth",
-    "nationality": "United States",
-    "position": "Midfielder",
-    "age": "24",
-    "number": "18",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p200785.png",
-    "previousTeam": [
-      "Leeds United"
-    ]
-  },
-  {
     "name": "Tosin Adarabioyo",
     "team": "Fulham",
     "nationality": "England",
@@ -55,18 +43,6 @@ var playerList = [
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p535818.png",
     "previousTeam": [
       "Brighton &amp; Hove Albion"
-    ]
-  },
-  {
-    "name": "Adri\u00e1n",
-    "team": "Liverpool",
-    "nationality": "Spain",
-    "position": "Goalkeeper",
-    "age": "36",
-    "number": "13",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p60706.png",
-    "previousTeam": [
-      "West Ham United"
     ]
   },
   {
@@ -170,16 +146,6 @@ var playerList = [
     "previousTeam": []
   },
   {
-    "name": "Thiago Alc\u00e2ntara",
-    "team": "Liverpool",
-    "nationality": "Spain",
-    "position": "Midfielder",
-    "age": "32",
-    "number": "6",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p61558.png",
-    "previousTeam": []
-  },
-  {
     "name": "Trent Alexander-Arnold",
     "team": "Liverpool",
     "nationality": "England",
@@ -198,18 +164,6 @@ var playerList = [
     "number": "1",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p116535.png",
     "previousTeam": []
-  },
-  {
-    "name": "Dele Alli",
-    "team": "Everton",
-    "nationality": "England",
-    "position": "Midfielder",
-    "age": "27",
-    "number": "20",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p108823.png",
-    "previousTeam": [
-      "Tottenham Hotspur"
-    ]
   },
   {
     "name": "Miguel Almir\u00f3n",
@@ -254,18 +208,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Joseph Anang",
-    "team": "West Ham United",
-    "nationality": "England",
-    "position": "Goalkeeper",
-    "age": "23",
-    "number": "49",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p447879.png",
-    "previousTeam": [
-      "West Ham United U21"
-    ]
-  },
-  {
     "name": "Joachim Andersen",
     "team": "Crystal Palace",
     "nationality": "Denmark",
@@ -290,18 +232,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Andr\u00e9 Gomes",
-    "team": "Everton",
-    "nationality": "Portugal",
-    "position": "Midfielder",
-    "age": "30",
-    "number": "21",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p120250.png",
-    "previousTeam": [
-      "Everton  (Loan) "
-    ]
-  },
-  {
     "name": "Andreas Pereira",
     "team": "Fulham",
     "nationality": "Brazil",
@@ -311,31 +241,6 @@ var playerList = [
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p156689.png",
     "previousTeam": [
       "Manchester United"
-    ]
-  },
-  {
-    "name": "Andrey Santos",
-    "team": "Nottingham Forest",
-    "nationality": "Brazil",
-    "position": "Midfielder",
-    "age": "19",
-    "number": "12",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p532605.png",
-    "previousTeam": [
-      "Nottingham Forest  (Loan) ",
-      "Chelsea"
-    ]
-  },
-  {
-    "name": "Vincent Angelini",
-    "team": "Brentford",
-    "nationality": "Scotland",
-    "position": "Goalkeeper",
-    "age": "20",
-    "number": "41",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p563883.png",
-    "previousTeam": [
-      "Watford"
     ]
   },
   {
@@ -396,16 +301,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Brandon Austin",
-    "team": "Tottenham Hotspur",
-    "nationality": "England",
-    "position": "Goalkeeper",
-    "age": "24",
-    "number": "40",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p214572.png",
-    "previousTeam": []
-  },
-  {
     "name": "Taiwo Awoniyi",
     "team": "Nottingham Forest",
     "nationality": "Nigeria",
@@ -432,16 +327,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Beno\u00eet Badiashile",
-    "team": "Chelsea",
-    "nationality": "France",
-    "position": "Defender",
-    "age": "22",
-    "number": "5",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p242880.png",
-    "previousTeam": []
-  },
-  {
     "name": "Leon Bailey",
     "team": "Aston Villa",
     "nationality": "Jamaica",
@@ -449,26 +334,6 @@ var playerList = [
     "age": "26",
     "number": "31",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p215711.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Stefan Bajcetic",
-    "team": "Liverpool",
-    "nationality": "Spain",
-    "position": "Midfielder",
-    "age": "19",
-    "number": "43",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p535928.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Ellery Balcombe",
-    "team": "Brentford",
-    "nationality": "England",
-    "position": "Goalkeeper",
-    "age": "24",
-    "number": "40",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p235448.png",
     "previousTeam": []
   },
   {
@@ -491,18 +356,6 @@ var playerList = [
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p535301.png",
     "previousTeam": [
       "Brighton &amp; Hove Albion"
-    ]
-  },
-  {
-    "name": "Fod\u00e9 Ballo-Tour\u00e9",
-    "team": "Fulham",
-    "nationality": "Senegal",
-    "position": "Defender",
-    "age": "26",
-    "number": "12",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p225897.png",
-    "previousTeam": [
-      "Fulham  (Loan) "
     ]
   },
   {
@@ -555,16 +408,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Eddie Beach",
-    "team": "Chelsea",
-    "nationality": "Wales",
-    "position": "Goalkeeper",
-    "age": "20",
-    "number": "50",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p474803.png",
-    "previousTeam": []
-  },
-  {
     "name": "Amari'i Bell",
     "team": "Luton Town",
     "nationality": "Jamaica",
@@ -595,16 +438,6 @@ var playerList = [
     "previousTeam": []
   },
   {
-    "name": "Steven Benda",
-    "team": "Fulham",
-    "nationality": "Germany",
-    "position": "Goalkeeper",
-    "age": "25",
-    "number": "23",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p428971.png",
-    "previousTeam": []
-  },
-  {
     "name": "Sa\u00efd Benrahma",
     "team": "West Ham United",
     "nationality": "Algeria",
@@ -615,26 +448,6 @@ var playerList = [
     "previousTeam": [
       "West Ham United  (Loan) "
     ]
-  },
-  {
-    "name": "Rodrigo Bentancur",
-    "team": "Tottenham Hotspur",
-    "nationality": "Uruguay",
-    "position": "Midfielder",
-    "age": "26",
-    "number": "30",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p202993.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Dan Bentley",
-    "team": "Wolverhampton Wanderers",
-    "nationality": "England",
-    "position": "Goalkeeper",
-    "age": "30",
-    "number": "25",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p79602.png",
-    "previousTeam": []
   },
   {
     "name": "Sander Berge",
@@ -649,16 +462,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Lucas Bergstr\u00f6m",
-    "team": "Chelsea",
-    "nationality": "Finland",
-    "position": "Goalkeeper",
-    "age": "21",
-    "number": "47",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p482158.png",
-    "previousTeam": []
-  },
-  {
     "name": "Bernardo Silva",
     "team": "Manchester City",
     "nationality": "Portugal",
@@ -666,16 +469,6 @@ var playerList = [
     "age": "29",
     "number": "20",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p165809.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Luke Berry",
-    "team": "Luton Town",
-    "nationality": "England",
-    "position": "Midfielder",
-    "age": "31",
-    "number": "8",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p82738.png",
     "previousTeam": []
   },
   {
@@ -687,18 +480,6 @@ var playerList = [
     "number": "14",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p486385.png",
     "previousTeam": []
-  },
-  {
-    "name": "Marcus Bettinelli",
-    "team": "Chelsea",
-    "nationality": "England",
-    "position": "Goalkeeper",
-    "age": "31",
-    "number": "13",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p122074.png",
-    "previousTeam": [
-      "Fulham"
-    ]
   },
   {
     "name": "Jordan Beyer",
@@ -781,22 +562,12 @@ var playerList = [
     "team": "West Ham United",
     "nationality": "England",
     "position": "Forward",
-    "age": "26",
+    "age": "27",
     "number": "20",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p178186.png",
     "previousTeam": [
       "Hull City"
     ]
-  },
-  {
-    "name": "Conor Bradley",
-    "team": "Liverpool",
-    "nationality": "Northern Ireland",
-    "position": "Defender",
-    "age": "20",
-    "number": "84",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p492777.png",
-    "previousTeam": []
   },
   {
     "name": "Jarrad Branthwaite",
@@ -821,16 +592,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Ethan Brierley",
-    "team": "Brentford",
-    "nationality": "England",
-    "position": "Midfielder",
-    "age": "20",
-    "number": "38",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p494041.png",
-    "previousTeam": []
-  },
-  {
     "name": "Armando Broja",
     "team": "Chelsea",
     "nationality": "Albania",
@@ -841,16 +602,6 @@ var playerList = [
     "previousTeam": [
       "Southampton  (Loan) "
     ]
-  },
-  {
-    "name": "Josh Brooking",
-    "team": "Chelsea",
-    "nationality": "England",
-    "position": "Defender",
-    "age": "21",
-    "number": "44",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p248854.png",
-    "previousTeam": []
   },
   {
     "name": "David Brooks",
@@ -915,18 +666,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Emiliano Buend\u00eda",
-    "team": "Aston Villa",
-    "nationality": "Argentina",
-    "position": "Midfielder",
-    "age": "26",
-    "number": "10",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p195546.png",
-    "previousTeam": [
-      "Norwich City"
-    ]
-  },
-  {
     "name": "Facundo Buonanotte",
     "team": "Brighton & Hove Albion",
     "nationality": "Argentina",
@@ -962,16 +701,6 @@ var playerList = [
       "Brighton &amp; Hove Albion",
       "Fulham"
     ]
-  },
-  {
-    "name": "Jili Buyabu",
-    "team": "Sheffield United",
-    "nationality": "England",
-    "position": "Defender",
-    "age": "20",
-    "number": "40",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p601496.png",
-    "previousTeam": []
   },
   {
     "name": "Mois\u00e9s Caicedo",
@@ -1020,23 +749,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Scott Carson",
-    "team": "Manchester City",
-    "nationality": "England",
-    "position": "Goalkeeper",
-    "age": "38",
-    "number": "33",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p17601.png",
-    "previousTeam": [
-      "Manchester City  (Loan) ",
-      "West Bromwich Albion",
-      "Aston Villa  (Loan) ",
-      "Liverpool",
-      "Charlton Athletic  (Loan) ",
-      "Leeds United"
-    ]
-  },
-  {
     "name": "Casemiro",
     "team": "Manchester United",
     "nationality": "Brazil",
@@ -1066,45 +778,6 @@ var playerList = [
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p166477.png",
     "previousTeam": [
       "Leicester City"
-    ]
-  },
-  {
-    "name": "C\u00e9dric Soares",
-    "team": "Arsenal",
-    "nationality": "Portugal",
-    "position": "Defender",
-    "age": "32",
-    "number": "17",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p58822.png",
-    "previousTeam": [
-      "Fulham  (Loan) ",
-      "Arsenal  (Loan) ",
-      "Southampton"
-    ]
-  },
-  {
-    "name": "Trevoh Chalobah",
-    "team": "Chelsea",
-    "nationality": "England",
-    "position": "Defender",
-    "age": "24",
-    "number": "14",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p180736.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Calum Chambers",
-    "team": "Aston Villa",
-    "nationality": "England",
-    "position": "Defender",
-    "age": "28",
-    "number": "16",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p101184.png",
-    "previousTeam": [
-      "Arsenal",
-      "Fulham  (Loan) ",
-      "Middlesbrough  (Loan) ",
-      "Southampton"
     ]
   },
   {
@@ -1142,28 +815,6 @@ var playerList = [
     "previousTeam": []
   },
   {
-    "name": "Carney Chukwuemeka",
-    "team": "Chelsea",
-    "nationality": "England",
-    "position": "Midfielder",
-    "age": "20",
-    "number": "17",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p478912.png",
-    "previousTeam": [
-      "Aston Villa"
-    ]
-  },
-  {
-    "name": "Bobby Clark",
-    "team": "Liverpool",
-    "nationality": "England",
-    "position": "Midfielder",
-    "age": "18",
-    "number": "42",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p491970.png",
-    "previousTeam": []
-  },
-  {
     "name": "Nathaniel Clyne",
     "team": "Crystal Palace",
     "nationality": "England",
@@ -1176,16 +827,6 @@ var playerList = [
       "Liverpool",
       "Southampton"
     ]
-  },
-  {
-    "name": "S\u00e9amus Coleman",
-    "team": "Everton",
-    "nationality": "Ireland",
-    "position": "Defender",
-    "age": "35",
-    "number": "23",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p59949.png",
-    "previousTeam": []
   },
   {
     "name": "Nathan Collins",
@@ -1201,18 +842,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Levi Colwill",
-    "team": "Chelsea",
-    "nationality": "England",
-    "position": "Defender",
-    "age": "20",
-    "number": "26",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p460028.png",
-    "previousTeam": [
-      "Brighton &amp; Hove Albion  (Loan) "
-    ]
-  },
-  {
     "name": "Lewis Cook",
     "team": "Bournemouth",
     "nationality": "England",
@@ -1223,33 +852,6 @@ var playerList = [
     "previousTeam": []
   },
   {
-    "name": "Jack Cork",
-    "team": "Burnley",
-    "nationality": "England",
-    "position": "Midfielder",
-    "age": "34",
-    "number": "4",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p40145.png",
-    "previousTeam": [
-      "Swansea City",
-      "Southampton",
-      "Burnley  (Loan) ",
-      "Chelsea"
-    ]
-  },
-  {
-    "name": "Maxwel Cornet",
-    "team": "West Ham United",
-    "nationality": "Cote D\u2019Ivoire",
-    "position": "Forward",
-    "age": "27",
-    "number": "17",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p149519.png",
-    "previousTeam": [
-      "Burnley"
-    ]
-  },
-  {
     "name": "Vladim\u00edr Coufal",
     "team": "West Ham United",
     "nationality": "Czech Republic",
@@ -1257,50 +859,6 @@ var playerList = [
     "age": "31",
     "number": "5",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p164555.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Ismaila Coulibaly",
-    "team": "Sheffield United",
-    "nationality": "Mali",
-    "position": "Midfielder",
-    "age": "22",
-    "number": "17",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p476938.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Conor Coventry",
-    "team": "West Ham United",
-    "nationality": "Ireland",
-    "position": "Midfielder",
-    "age": "23",
-    "number": "32",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p222017.png",
-    "previousTeam": [
-      "West Ham United U21"
-    ]
-  },
-  {
-    "name": "Billy Crellin",
-    "team": "Everton",
-    "nationality": "England",
-    "position": "Goalkeeper",
-    "age": "23",
-    "number": "43",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p438405.png",
-    "previousTeam": [
-      "Everton U21"
-    ]
-  },
-  {
-    "name": "Aaron Cresswell",
-    "team": "West Ham United",
-    "nationality": "England",
-    "position": "Defender",
-    "age": "34",
-    "number": "3",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p55459.png",
     "previousTeam": []
   },
   {
@@ -1374,30 +932,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Josh Dasilva",
-    "team": "Brentford",
-    "nationality": "England",
-    "position": "Midfielder",
-    "age": "25",
-    "number": "10",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p183656.png",
-    "previousTeam": [
-      "Arsenal"
-    ]
-  },
-  {
-    "name": "Tom Davies",
-    "team": "Sheffield United",
-    "nationality": "England",
-    "position": "Midfielder",
-    "age": "25",
-    "number": "22",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p173807.png",
-    "previousTeam": [
-      "Everton"
-    ]
-  },
-  {
     "name": "Craig Dawson",
     "team": "Wolverhampton Wanderers",
     "nationality": "England",
@@ -1413,18 +947,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Kevin De Bruyne",
-    "team": "Manchester City",
-    "nationality": "Belgium",
-    "position": "Midfielder",
-    "age": "32",
-    "number": "17",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p61366.png",
-    "previousTeam": [
-      "Chelsea"
-    ]
-  },
-  {
     "name": "Bobby De Cordova-Reid",
     "team": "Fulham",
     "nationality": "Jamaica",
@@ -1435,16 +957,6 @@ var playerList = [
     "previousTeam": [
       "Cardiff City"
     ]
-  },
-  {
-    "name": "Deivid Washington",
-    "team": "Chelsea",
-    "nationality": "Brazil",
-    "position": "Forward",
-    "age": "18",
-    "number": "36",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p617054.png",
-    "previousTeam": []
   },
   {
     "name": "Hannes Delcroix",
@@ -1480,16 +992,6 @@ var playerList = [
     "previousTeam": []
   },
   {
-    "name": "Amad Diallo",
-    "team": "Manchester United",
-    "nationality": "Cote D\u2019Ivoire",
-    "position": "Forward",
-    "age": "21",
-    "number": "16",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p493250.png",
-    "previousTeam": []
-  },
-  {
     "name": "Luis D\u00edaz",
     "team": "Liverpool",
     "nationality": "Colombia",
@@ -1497,16 +999,6 @@ var playerList = [
     "age": "26",
     "number": "7",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244731.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Matthew Dibley-Dias",
-    "team": "Fulham",
-    "nationality": "New Zealand",
-    "position": "Midfielder",
-    "age": "20",
-    "number": "49",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p515023.png",
     "previousTeam": []
   },
   {
@@ -1518,18 +1010,6 @@ var playerList = [
     "number": "3",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p165659.png",
     "previousTeam": []
-  },
-  {
-    "name": "Eric Dier",
-    "team": "Tottenham Hotspur",
-    "nationality": "England",
-    "position": "Defender",
-    "age": "29",
-    "number": "15",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p93264.png",
-    "previousTeam": [
-      "Everton  (Loan) "
-    ]
   },
   {
     "name": "Lucas Digne",
@@ -1586,16 +1066,6 @@ var playerList = [
     "age": "25",
     "number": "2",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p220362.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Ben Doak",
-    "team": "Liverpool",
-    "nationality": "Scotland",
-    "position": "Forward",
-    "age": "18",
-    "number": "50",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p496208.png",
     "previousTeam": []
   },
   {
@@ -1687,29 +1157,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Martin D\u00fabravka",
-    "team": "Newcastle United",
-    "nationality": "Slovakia",
-    "position": "Goalkeeper",
-    "age": "34",
-    "number": "1",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p67089.png",
-    "previousTeam": [
-      "Manchester United  (Loan) ",
-      "Newcastle United  (Loan) "
-    ]
-  },
-  {
-    "name": "Paul Dummett",
-    "team": "Newcastle United",
-    "nationality": "Wales",
-    "position": "Defender",
-    "age": "32",
-    "number": "3",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p106618.png",
-    "previousTeam": []
-  },
-  {
     "name": "Lewis Dunk",
     "team": "Brighton & Hove Albion",
     "nationality": "England",
@@ -1729,16 +1176,6 @@ var playerList = [
     "age": "20",
     "number": "24",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p476344.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Malcolm Ebiowei",
-    "team": "Crystal Palace",
-    "nationality": "England",
-    "position": "Forward",
-    "age": "20",
-    "number": "23",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p450535.png",
     "previousTeam": []
   },
   {
@@ -1773,16 +1210,6 @@ var playerList = [
       "Sunderland",
       "Crystal Palace"
     ]
-  },
-  {
-    "name": "Hjalmar Ekdal",
-    "team": "Burnley",
-    "nationality": "Sweden",
-    "position": "Defender",
-    "age": "25",
-    "number": "18",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p478969.png",
-    "previousTeam": []
   },
   {
     "name": "Anthony Elanga",
@@ -1829,18 +1256,6 @@ var playerList = [
     "number": "12",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p241157.png",
     "previousTeam": []
-  },
-  {
-    "name": "Julio Enciso",
-    "team": "Brighton & Hove Albion",
-    "nationality": "Paraguay",
-    "position": "Forward",
-    "age": "19",
-    "number": "10",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p474120.png",
-    "previousTeam": [
-      "Brighton &amp; Hove Albion"
-    ]
   },
   {
     "name": "Wataru Endo",
@@ -1902,19 +1317,6 @@ var playerList = [
     "previousTeam": []
   },
   {
-    "name": "Lukasz Fabianski",
-    "team": "West Ham United",
-    "nationality": "Poland",
-    "position": "Goalkeeper",
-    "age": "38",
-    "number": "1",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p37096.png",
-    "previousTeam": [
-      "Swansea City",
-      "Arsenal"
-    ]
-  },
-  {
     "name": "F\u00e1bio Silva",
     "team": "Wolverhampton Wanderers",
     "nationality": "Portugal",
@@ -1947,26 +1349,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Josh Feeney",
-    "team": "Aston Villa",
-    "nationality": "England",
-    "position": "Defender",
-    "age": "18",
-    "number": "59",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p536110.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Felipe",
-    "team": "Nottingham Forest",
-    "nationality": "Brazil",
-    "position": "Defender",
-    "age": "34",
-    "number": "18",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p116404.png",
-    "previousTeam": []
-  },
-  {
     "name": "Evan Ferguson",
     "team": "Brighton & Hove Albion",
     "nationality": "Ireland",
@@ -1986,16 +1368,6 @@ var playerList = [
     "age": "22",
     "number": "8",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p448047.png",
-    "previousTeam": []
-  },
-  {
-    "name": "John Fleck",
-    "team": "Sheffield United",
-    "nationality": "Scotland",
-    "position": "Midfielder",
-    "age": "32",
-    "number": "4",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p47247.png",
     "previousTeam": []
   },
   {
@@ -2031,18 +1403,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Wesley Fofana",
-    "team": "Chelsea",
-    "nationality": "France",
-    "position": "Defender",
-    "age": "23",
-    "number": "33",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p444463.png",
-    "previousTeam": [
-      "Leicester City"
-    ]
-  },
-  {
     "name": "Pablo Fornals",
     "team": "West Ham United",
     "nationality": "Spain",
@@ -2053,19 +1413,6 @@ var playerList = [
     "previousTeam": []
   },
   {
-    "name": "Fraser Forster",
-    "team": "Tottenham Hotspur",
-    "nationality": "England",
-    "position": "Goalkeeper",
-    "age": "35",
-    "number": "20",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p40383.png",
-    "previousTeam": [
-      "Southampton",
-      "Newcastle United"
-    ]
-  },
-  {
     "name": "Lyle Foster",
     "team": "Burnley",
     "nationality": "South Africa",
@@ -2074,42 +1421,6 @@ var playerList = [
     "number": "17",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p435973.png",
     "previousTeam": []
-  },
-  {
-    "name": "Denis Franchi",
-    "team": "Burnley",
-    "nationality": "Italy",
-    "position": "Goalkeeper",
-    "age": "21",
-    "number": "20",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p493347.png",
-    "previousTeam": [
-      "Burnley U21"
-    ]
-  },
-  {
-    "name": "Tyrese Francois",
-    "team": "Fulham",
-    "nationality": "Australia",
-    "position": "Midfielder",
-    "age": "23",
-    "number": "35",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p432931.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Ryan Fredericks",
-    "team": "Bournemouth",
-    "nationality": "England",
-    "position": "Defender",
-    "age": "31",
-    "number": "2",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p81012.png",
-    "previousTeam": [
-      "West Ham United",
-      "Fulham",
-      "Tottenham Hotspur"
-    ]
   },
   {
     "name": "Gabriel Jesus",
@@ -2237,18 +1548,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Mark Gillespie",
-    "team": "Newcastle United",
-    "nationality": "England",
-    "position": "Goalkeeper",
-    "age": "31",
-    "number": "29",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p81441.png",
-    "previousTeam": [
-      "Newcastle United U21"
-    ]
-  },
-  {
     "name": "Billy Gilmour",
     "team": "Brighton & Hove Albion",
     "nationality": "Scotland",
@@ -2263,18 +1562,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Ben Godfrey",
-    "team": "Everton",
-    "nationality": "England",
-    "position": "Defender",
-    "age": "25",
-    "number": "22",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p198826.png",
-    "previousTeam": [
-      "Norwich City"
-    ]
-  },
-  {
     "name": "Joe Gomez",
     "team": "Liverpool",
     "nationality": "England",
@@ -2282,26 +1569,6 @@ var playerList = [
     "age": "26",
     "number": "2",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p171287.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Enso Gonz\u00e1lez",
-    "team": "Wolverhampton Wanderers",
-    "nationality": "Paraguay",
-    "position": "Forward",
-    "age": "18",
-    "number": "30",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p593001.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Charlie Goode",
-    "team": "Brentford",
-    "nationality": "England",
-    "position": "Defender",
-    "age": "28",
-    "number": "4",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p213687.png",
     "previousTeam": []
   },
   {
@@ -2403,19 +1670,6 @@ var playerList = [
     "previousTeam": []
   },
   {
-    "name": "Lewis Hall",
-    "team": "Newcastle United",
-    "nationality": "England",
-    "position": "Defender",
-    "age": "19",
-    "number": "20",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p487838.png",
-    "previousTeam": [
-      "Newcastle United  (Loan) ",
-      "Chelsea"
-    ]
-  },
-  {
     "name": "Gustavo Hamer",
     "team": "Sheffield United",
     "nationality": "Netherlands",
@@ -2423,16 +1677,6 @@ var playerList = [
     "age": "26",
     "number": "8",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p196100.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Luke Harris",
-    "team": "Fulham",
-    "nationality": "Wales",
-    "position": "Midfielder",
-    "age": "18",
-    "number": "38",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p515024.png",
     "previousTeam": []
   },
   {
@@ -2451,19 +1695,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Kortney Hause",
-    "team": "Aston Villa",
-    "nationality": "England",
-    "position": "Defender",
-    "age": "28",
-    "number": "30",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p123354.png",
-    "previousTeam": [
-      "Aston Villa  (Loan) ",
-      "Wolverhampton Wanderers"
-    ]
-  },
-  {
     "name": "Kai Havertz",
     "team": "Arsenal",
     "nationality": "Germany",
@@ -2473,45 +1704,6 @@ var playerList = [
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p219847.png",
     "previousTeam": [
       "Chelsea"
-    ]
-  },
-  {
-    "name": "Tom Heaton",
-    "team": "Manchester United",
-    "nationality": "England",
-    "position": "Goalkeeper",
-    "age": "37",
-    "number": "22",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p21205.png",
-    "previousTeam": [
-      "Aston Villa",
-      "Burnley"
-    ]
-  },
-  {
-    "name": "Karl Hein",
-    "team": "Arsenal",
-    "nationality": "Estonia",
-    "position": "Goalkeeper",
-    "age": "21",
-    "number": "31",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p463748.png",
-    "previousTeam": [
-      "Arsenal U21"
-    ]
-  },
-  {
-    "name": "Wayne Hennessey",
-    "team": "Nottingham Forest",
-    "nationality": "Wales",
-    "position": "Goalkeeper",
-    "age": "36",
-    "number": "13",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p20066.png",
-    "previousTeam": [
-      "Burnley",
-      "Crystal Palace",
-      "Wolverhampton Wanderers"
     ]
   },
   {
@@ -2544,28 +1736,6 @@ var playerList = [
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p532529.png",
     "previousTeam": [
       "Brighton &amp; Hove Albion"
-    ]
-  },
-  {
-    "name": "Joe Hodge",
-    "team": "Wolverhampton Wanderers",
-    "nationality": "Ireland",
-    "position": "Midfielder",
-    "age": "21",
-    "number": "32",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p240299.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Ethan Horvath",
-    "team": "Nottingham Forest",
-    "nationality": "United States",
-    "position": "Goalkeeper",
-    "age": "28",
-    "number": "34",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p168547.png",
-    "previousTeam": [
-      "Luton Town  (Loan) "
     ]
   },
   {
@@ -2602,18 +1772,6 @@ var playerList = [
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p490721.png",
     "previousTeam": [
       "Wolverhampton Wanderers U21"
-    ]
-  },
-  {
-    "name": "Mackenzie Hunt",
-    "team": "Everton",
-    "nationality": "England",
-    "position": "Midfielder",
-    "age": "22",
-    "number": "58",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p447261.png",
-    "previousTeam": [
-      "Everton U21"
     ]
   },
   {
@@ -2679,18 +1837,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Tim Iroegbunam",
-    "team": "Aston Villa",
-    "nationality": "England",
-    "position": "Midfielder",
-    "age": "20",
-    "number": "47",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p490094.png",
-    "previousTeam": [
-      "West Bromwich Albion"
-    ]
-  },
-  {
     "name": "Alexander Isak",
     "team": "Newcastle United",
     "nationality": "Sweden",
@@ -2743,26 +1889,6 @@ var playerList = [
     "age": "25",
     "number": "27",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p204580.png",
-    "previousTeam": []
-  },
-  {
-    "name": "V\u00edtezslav Jaros",
-    "team": "Liverpool",
-    "nationality": "Czech Republic",
-    "position": "Goalkeeper",
-    "age": "22",
-    "number": "56",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p432987.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Daniel Jebbison",
-    "team": "Sheffield United",
-    "nationality": "Canada",
-    "position": "Forward",
-    "age": "20",
-    "number": "36",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p523700.png",
     "previousTeam": []
   },
   {
@@ -2822,16 +1948,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Jo\u00e3o Virg\u00ednia",
-    "team": "Everton",
-    "nationality": "Portugal",
-    "position": "Goalkeeper",
-    "age": "24",
-    "number": "12",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p222627.png",
-    "previousTeam": []
-  },
-  {
     "name": "Joelinton",
     "team": "Newcastle United",
     "nationality": "Brazil",
@@ -2870,7 +1986,7 @@ var playerList = [
     "team": "Arsenal",
     "nationality": "Italy",
     "position": "Midfielder",
-    "age": "31",
+    "age": "32",
     "number": "20",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p85955.png",
     "previousTeam": [
@@ -2931,18 +2047,6 @@ var playerList = [
     "previousTeam": []
   },
   {
-    "name": "Loris Karius",
-    "team": "Newcastle United",
-    "nationality": "Germany",
-    "position": "Goalkeeper",
-    "age": "30",
-    "number": "18",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p104542.png",
-    "previousTeam": [
-      "Liverpool"
-    ]
-  },
-  {
     "name": "Michael Keane",
     "team": "Everton",
     "nationality": "England",
@@ -2957,26 +2061,6 @@ var playerList = [
     ]
   },
   {
-    "name": "Thilo Kehrer",
-    "team": "West Ham United",
-    "nationality": "Germany",
-    "position": "Defender",
-    "age": "27",
-    "number": "24",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p201057.png",
-    "previousTeam": []
-  },
-  {
-    "name": "Caoimh\u00edn Kelleher",
-    "team": "Liverpool",
-    "nationality": "Ireland",
-    "position": "Goalkeeper",
-    "age": "25",
-    "number": "62",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p200720.png",
-    "previousTeam": []
-  },
-  {
     "name": "Lloyd Kelly",
     "team": "Bournemouth",
     "nationality": "England",
@@ -2987,13 +2071,2161 @@ var playerList = [
     "previousTeam": []
   },
   {
-    "name": "Omari Kellyman",
+    "name": "Milos Kerkez",
+    "team": "Bournemouth",
+    "nationality": "Hungary",
+    "position": "Defender",
+    "age": "20",
+    "number": "3",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p544877.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Maximilian Kilman",
+    "team": "Wolverhampton Wanderers",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "26",
+    "number": "23",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p214048.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Jakub Kiwior",
+    "team": "Arsenal",
+    "nationality": "Poland",
+    "position": "Defender",
+    "age": "23",
+    "number": "15",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p440854.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Justin Kluivert",
+    "team": "Bournemouth",
+    "nationality": "Netherlands",
+    "position": "Forward",
+    "age": "24",
+    "number": "19",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p222683.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Luca Koleosho",
+    "team": "Burnley",
+    "nationality": "Italy",
+    "position": "Forward",
+    "age": "19",
+    "number": "30",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p487702.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Ibrahima Konat\u00e9",
+    "team": "Liverpool",
+    "nationality": "France",
+    "position": "Defender",
+    "age": "24",
+    "number": "5",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p204716.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Ezri Konsa",
+    "team": "Aston Villa",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "26",
+    "number": "4",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p199798.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Cheikhou Kouyat\u00e9",
+    "team": "Nottingham Forest",
+    "nationality": "Senegal",
+    "position": "Midfielder",
+    "age": "33",
+    "number": "8",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p55037.png",
+    "previousTeam": [
+      "Crystal Palace",
+      "West Ham United"
+    ]
+  },
+  {
+    "name": "Mateo Kovacic",
+    "team": "Manchester City",
+    "nationality": "Croatia",
+    "position": "Midfielder",
+    "age": "29",
+    "number": "8",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p91651.png",
+    "previousTeam": [
+      "Chelsea",
+      "Chelsea  (Loan) "
+    ]
+  },
+  {
+    "name": "Mohammed Kudus",
+    "team": "West Ham United",
+    "nationality": "Ghana",
+    "position": "Midfielder",
+    "age": "23",
+    "number": "14",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p460842.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Dejan Kulusevski",
+    "team": "Tottenham Hotspur",
+    "nationality": "Sweden",
+    "position": "Midfielder",
+    "age": "23",
+    "number": "21",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p445044.png",
+    "previousTeam": [
+      "Tottenham Hotspur  (Loan) "
+    ]
+  },
+  {
+    "name": "Adam Lallana",
+    "team": "Brighton & Hove Albion",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "35",
+    "number": "14",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p39155.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion",
+      "Liverpool",
+      "Southampton"
+    ]
+  },
+  {
+    "name": "Tariq Lamptey",
+    "team": "Brighton & Hove Albion",
+    "nationality": "Ghana",
+    "position": "Defender",
+    "age": "23",
+    "number": "2",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232792.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion",
+      "Chelsea"
+    ]
+  },
+  {
+    "name": "Yasser Larouci",
+    "team": "Sheffield United",
+    "nationality": "Algeria",
+    "position": "Defender",
+    "age": "22",
+    "number": "27",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p432990.png",
+    "previousTeam": [
+      "Sheffield United  (Loan) ",
+      "Liverpool"
+    ]
+  },
+  {
+    "name": "Jamaal Lascelles",
+    "team": "Newcastle United",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "30",
+    "number": "6",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p101148.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Mario Lemina",
+    "team": "Wolverhampton Wanderers",
+    "nationality": "Gabon",
+    "position": "Midfielder",
+    "age": "30",
+    "number": "5",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p151086.png",
+    "previousTeam": [
+      "Southampton",
+      "Fulham  (Loan) "
+    ]
+  },
+  {
+    "name": "Bernd Leno",
+    "team": "Fulham",
+    "nationality": "Germany",
+    "position": "Goalkeeper",
+    "age": "31",
+    "number": "17",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p80201.png",
+    "previousTeam": [
+      "Arsenal"
+    ]
+  },
+  {
+    "name": "Jefferson Lerma",
+    "team": "Crystal Palace",
+    "nationality": "Colombia",
+    "position": "Midfielder",
+    "age": "29",
+    "number": "8",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p152551.png",
+    "previousTeam": [
+      "Bournemouth"
+    ]
+  },
+  {
+    "name": "Lewis Miley",
+    "team": "Newcastle United U19",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "17",
+    "number": "67",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p547719.png",
+    "previousTeam": [
+      "Newcastle United"
+    ]
+  },
+  {
+    "name": "Keane Lewis-Potter",
+    "team": "Brentford",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "22",
+    "number": "23",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p249231.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Victor Lindel\u00f6f",
+    "team": "Manchester United",
+    "nationality": "Sweden",
+    "position": "Defender",
+    "age": "29",
+    "number": "2",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184667.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Tino Livramento",
+    "team": "Newcastle United",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "21",
+    "number": "21",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p441191.png",
+    "previousTeam": [
+      "Southampton",
+      "Chelsea"
+    ]
+  },
+  {
+    "name": "Giovani Lo Celso",
+    "team": "Villarreal",
+    "nationality": "Argentina",
+    "position": "Midfielder",
+    "age": "27",
+    "number": "17",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p200826.png",
+    "previousTeam": [
+      "Tottenham Hotspur",
+      "Tottenham Hotspur  (Loan) "
+    ]
+  },
+  {
+    "name": "Tom Lockyer",
+    "team": "Luton Town",
+    "nationality": "Wales",
+    "position": "Defender",
+    "age": "29",
+    "number": "4",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p108796.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Sean Longstaff",
+    "team": "Newcastle United",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "26",
+    "number": "36",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p180135.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Lucas Paquet\u00e1",
+    "team": "West Ham United",
+    "nationality": "Brazil",
+    "position": "Midfielder",
+    "age": "26",
+    "number": "10",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p224024.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Sasa Lukic",
+    "team": "Fulham",
+    "nationality": "Serbia",
+    "position": "Midfielder",
+    "age": "27",
+    "number": "28",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p212314.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Alexis Mac Allister",
+    "team": "Liverpool",
+    "nationality": "Argentina",
+    "position": "Midfielder",
+    "age": "24",
+    "number": "10",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p243016.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion"
+    ]
+  },
+  {
+    "name": "James Maddison",
+    "team": "Tottenham Hotspur",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "27",
+    "number": "10",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p172780.png",
+    "previousTeam": [
+      "Leicester City",
+      "Norwich City"
+    ]
+  },
+  {
+    "name": "Noni Madueke",
+    "team": "Chelsea",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "21",
+    "number": "11",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p248857.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Harry Maguire",
+    "team": "Manchester United",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "30",
+    "number": "5",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p95658.png",
+    "previousTeam": [
+      "Leicester City",
+      "Hull City"
+    ]
+  },
+  {
+    "name": "Orel Mangala",
+    "team": "Nottingham Forest",
+    "nationality": "Belgium",
+    "position": "Midfielder",
+    "age": "25",
+    "number": "5",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p179519.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Solly March",
+    "team": "Brighton & Hove Albion",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "29",
+    "number": "7",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p109345.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion"
+    ]
+  },
+  {
+    "name": "Anthony Martial",
+    "team": "Manchester United",
+    "nationality": "France",
+    "position": "Forward",
+    "age": "28",
+    "number": "9",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p148225.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Emiliano Mart\u00ednez",
+    "team": "Aston Villa",
+    "nationality": "Argentina",
+    "position": "Goalkeeper",
+    "age": "31",
+    "number": "1",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p98980.png",
+    "previousTeam": [
+      "Arsenal"
+    ]
+  },
+  {
+    "name": "Jean-Philippe Mateta",
+    "team": "Crystal Palace",
+    "nationality": "France",
+    "position": "Forward",
+    "age": "26",
+    "number": "14",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p231747.png",
+    "previousTeam": [
+      "Crystal Palace  (Loan) "
+    ]
+  },
+  {
+    "name": "Matheus Cunha",
+    "team": "Wolverhampton Wanderers",
+    "nationality": "Brazil",
+    "position": "Forward",
+    "age": "24",
+    "number": "12",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p430871.png",
+    "previousTeam": [
+      "Wolverhampton Wanderers  (Loan) "
+    ]
+  },
+  {
+    "name": "Matheus Nunes",
+    "team": "Manchester City",
+    "nationality": "Portugal",
+    "position": "Midfielder",
+    "age": "25",
+    "number": "27",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465351.png",
+    "previousTeam": [
+      "Wolverhampton Wanderers"
+    ]
+  },
+  {
+    "name": "Jo\u00ebl Matip",
+    "team": "Liverpool",
+    "nationality": "Cameroon",
+    "position": "Defender",
+    "age": "32",
+    "number": "32",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p60914.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Neal Maupay",
+    "team": "Brentford",
+    "nationality": "France",
+    "position": "Forward",
+    "age": "27",
+    "number": "7",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p115382.png",
+    "previousTeam": [
+      "Brentford  (Loan) ",
+      "Everton",
+      "Brighton &amp; Hove Albion"
+    ]
+  },
+  {
+    "name": "Bryan Mbeumo",
+    "team": "Brentford",
+    "nationality": "Cameroon",
+    "position": "Midfielder",
+    "age": "24",
+    "number": "19",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p446008.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Oliver McBurnie",
+    "team": "Sheffield United",
+    "nationality": "Scotland",
+    "position": "Forward",
+    "age": "27",
+    "number": "9",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p169432.png",
+    "previousTeam": [
+      "Swansea City"
+    ]
+  },
+  {
+    "name": "John McGinn",
+    "team": "Aston Villa",
+    "nationality": "Scotland",
+    "position": "Midfielder",
+    "age": "29",
+    "number": "7",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p122806.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Scott McKenna",
+    "team": "Nottingham Forest",
+    "nationality": "Scotland",
+    "position": "Defender",
+    "age": "27",
+    "number": "26",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p168281.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Dwight McNeil",
+    "team": "Everton",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "24",
+    "number": "7",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p433154.png",
+    "previousTeam": [
+      "Burnley"
+    ]
+  },
+  {
+    "name": "Scott McTominay",
+    "team": "Manchester United",
+    "nationality": "Scotland",
+    "position": "Midfielder",
+    "age": "27",
+    "number": "39",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p195851.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Ben Mee",
+    "team": "Brentford",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "34",
+    "number": "16",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p51927.png",
+    "previousTeam": [
+      "Burnley",
+      "Manchester City"
+    ]
+  },
+  {
+    "name": "Teden Mengi",
+    "team": "Luton Town",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "21",
+    "number": "15",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244856.png",
+    "previousTeam": [
+      "Manchester United U21",
+      "Manchester United"
+    ]
+  },
+  {
+    "name": "Chris Mepham",
+    "team": "Bournemouth",
+    "nationality": "Wales",
+    "position": "Defender",
+    "age": "26",
+    "number": "6",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p223911.png",
+    "previousTeam": []
+  },
+  {
+    "name": "James Milner",
+    "team": "Brighton & Hove Albion",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "37",
+    "number": "6",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p15157.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion",
+      "Liverpool",
+      "Manchester City",
+      "Aston Villa",
+      "Newcastle United",
+      "Aston Villa  (Loan) ",
+      "Leeds United"
+    ]
+  },
+  {
+    "name": "Tyrick Mitchell",
+    "team": "Crystal Palace",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "24",
+    "number": "3",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244723.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Kaoru Mitoma",
+    "team": "Brighton & Hove Albion",
+    "nationality": "Japan",
+    "position": "Midfielder",
+    "age": "26",
+    "number": "22",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p451340.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion"
+    ]
+  },
+  {
+    "name": "Mohamed Salah",
+    "team": "Liverpool",
+    "nationality": "Egypt",
+    "position": "Forward",
+    "age": "31",
+    "number": "11",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p118748.png",
+    "previousTeam": [
+      "Chelsea"
+    ]
+  },
+  {
+    "name": "Kieffer Moore",
+    "team": "Bournemouth",
+    "nationality": "Wales",
+    "position": "Forward",
+    "age": "31",
+    "number": "21",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p128340.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Carlton Morris",
+    "team": "Luton Town",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "28",
+    "number": "9",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p156700.png",
+    "previousTeam": [
+      "Norwich City"
+    ]
+  },
+  {
+    "name": "Mason Mount",
+    "team": "Manchester United",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "24",
+    "number": "7",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184341.png",
+    "previousTeam": [
+      "Chelsea"
+    ]
+  },
+  {
+    "name": "Pelly Ruddock Mpanzu",
+    "team": "Luton Town",
+    "nationality": "DR Congo",
+    "position": "Midfielder",
+    "age": "29",
+    "number": "17",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p104047.png",
+    "previousTeam": [
+      "West Ham United"
+    ]
+  },
+  {
+    "name": "Mykhailo Mudryk",
+    "team": "Chelsea",
+    "nationality": "Ukraine",
+    "position": "Midfielder",
+    "age": "22",
+    "number": "10",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465920.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Murillo",
+    "team": "Nottingham Forest",
+    "nationality": "Brazil",
+    "position": "Defender",
+    "age": "21",
+    "number": "40",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p575476.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Vitalii Mykolenko",
+    "team": "Everton",
+    "nationality": "Ukraine",
+    "position": "Defender",
+    "age": "24",
+    "number": "19",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p224967.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Marvelous Nakamba",
+    "team": "Luton Town",
+    "nationality": "Zimbabwe",
+    "position": "Midfielder",
+    "age": "29",
+    "number": "13",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184704.png",
+    "previousTeam": [
+      "Luton Town  (Loan) ",
+      "Aston Villa"
+    ]
+  },
+  {
+    "name": "Reiss Nelson",
+    "team": "Arsenal",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "24",
+    "number": "24",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p200641.png",
+    "previousTeam": []
+  },
+  {
+    "name": "N\u00e9lson Semedo",
+    "team": "Wolverhampton Wanderers",
+    "nationality": "Portugal",
+    "position": "Defender",
+    "age": "30",
+    "number": "22",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p200402.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Neto",
+    "team": "Bournemouth",
+    "nationality": "Brazil",
+    "position": "Goalkeeper",
+    "age": "34",
+    "number": "1",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p69752.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Moussa Niakhat\u00e9",
+    "team": "Nottingham Forest",
+    "nationality": "Senegal",
+    "position": "Defender",
+    "age": "27",
+    "number": "19",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p199170.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Eddie Nketiah",
+    "team": "Arsenal",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "24",
+    "number": "14",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p205533.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Oliver Norwood",
+    "team": "Sheffield United",
+    "nationality": "Northern Ireland",
+    "position": "Midfielder",
+    "age": "32",
+    "number": "16",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p79934.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion",
+      "Fulham  (Loan) ",
+      "Coventry City",
+      "Manchester United"
+    ]
+  },
+  {
+    "name": "Darwin N\u00fa\u00f1ez",
+    "team": "Liverpool",
+    "nationality": "Uruguay",
+    "position": "Forward",
+    "age": "24",
+    "number": "9",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p447203.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Christian N\u00f8rgaard",
+    "team": "Brentford",
+    "nationality": "Denmark",
+    "position": "Midfielder",
+    "age": "29",
+    "number": "6",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p128295.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Dara O'Shea",
+    "team": "Burnley",
+    "nationality": "Ireland",
+    "position": "Defender",
+    "age": "24",
+    "number": "2",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p216616.png",
+    "previousTeam": [
+      "West Bromwich Albion"
+    ]
+  },
+  {
+    "name": "Wilson Odobert",
+    "team": "Burnley",
+    "nationality": "France",
+    "position": "Forward",
+    "age": "19",
+    "number": "47",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p550839.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Chiedozie Ogbene",
+    "team": "Luton Town",
+    "nationality": "Ireland",
+    "position": "Forward",
+    "age": "26",
+    "number": "7",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p229164.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Michael Olakigbe",
+    "team": "Brentford",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "19",
+    "number": "37",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p501284.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Michael Olise",
+    "team": "Crystal Palace",
+    "nationality": "France",
+    "position": "Midfielder",
+    "age": "22",
+    "number": "7",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p443661.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Amadou Onana",
+    "team": "Everton",
+    "nationality": "Belgium",
+    "position": "Midfielder",
+    "age": "22",
+    "number": "8",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p449871.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Frank Onyeka",
+    "team": "Brentford",
+    "nationality": "Nigeria",
+    "position": "Midfielder",
+    "age": "25",
+    "number": "15",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p428580.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Divock Origi",
+    "team": "Nottingham Forest",
+    "nationality": "Belgium",
+    "position": "Forward",
+    "age": "28",
+    "number": "27",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p152760.png",
+    "previousTeam": [
+      "Nottingham Forest  (Loan) ",
+      "Liverpool"
+    ]
+  },
+  {
+    "name": "Ben Osborn",
+    "team": "Sheffield United",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "29",
+    "number": "23",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p167878.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Gabriel Osho",
+    "team": "Luton Town",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "25",
+    "number": "2",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p199056.png",
+    "previousTeam": []
+  },
+  {
+    "name": "William Osula",
+    "team": "Sheffield United",
+    "nationality": "Denmark",
+    "position": "Forward",
+    "age": "20",
+    "number": "32",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p538207.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Dango Ouattara",
+    "team": "Bournemouth",
+    "nationality": "Burkina Faso",
+    "position": "Forward",
+    "age": "21",
+    "number": "11",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p533463.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Cole Palmer",
+    "team": "Chelsea",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "21",
+    "number": "20",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244851.png",
+    "previousTeam": [
+      "Manchester City"
+    ]
+  },
+  {
+    "name": "Pedro Neto",
+    "team": "Wolverhampton Wanderers",
+    "nationality": "Portugal",
+    "position": "Forward",
+    "age": "23",
+    "number": "7",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p247632.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Facundo Pellistri",
+    "team": "Manchester United",
+    "nationality": "Uruguay",
+    "position": "Midfielder",
+    "age": "22",
+    "number": "28",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p488404.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Ivan Perisic",
+    "team": "Tottenham Hotspur",
+    "nationality": "Croatia",
+    "position": "Midfielder",
+    "age": "34",
+    "number": "14",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p45034.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Jordan Pickford",
+    "team": "Everton",
+    "nationality": "England",
+    "position": "Goalkeeper",
+    "age": "29",
+    "number": "1",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p111234.png",
+    "previousTeam": [
+      "Sunderland"
+    ]
+  },
+  {
+    "name": "Ethan Pinnock",
+    "team": "Brentford",
+    "nationality": "Jamaica",
+    "position": "Defender",
+    "age": "30",
+    "number": "5",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p231065.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Nick Pope",
+    "team": "Newcastle United",
+    "nationality": "England",
+    "position": "Goalkeeper",
+    "age": "31",
+    "number": "22",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p98747.png",
+    "previousTeam": [
+      "Burnley"
+    ]
+  },
+  {
+    "name": "Pedro Porro",
+    "team": "Tottenham Hotspur",
+    "nationality": "Spain",
+    "position": "Defender",
+    "age": "24",
+    "number": "23",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p441164.png",
+    "previousTeam": [
+      "Tottenham Hotspur  (Loan) ",
+      "Manchester City"
+    ]
+  },
+  {
+    "name": "Jarell Quansah",
+    "team": "Liverpool",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "20",
+    "number": "78",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p441428.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Jesurun Rak-Sakyi",
+    "team": "Crystal Palace",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "21",
+    "number": "49",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p450542.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Aaron Ramsdale",
+    "team": "Arsenal",
+    "nationality": "England",
+    "position": "Goalkeeper",
+    "age": "25",
+    "number": "1",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p225321.png",
+    "previousTeam": [
+      "Sheffield United",
+      "Bournemouth",
+      "AFC Bournemouth"
+    ]
+  },
+  {
+    "name": "Jacob Ramsey",
     "team": "Aston Villa",
     "nationality": "England",
     "position": "Midfielder",
-    "age": "18",
-    "number": "71",
-    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p549068.png",
+    "age": "22",
+    "number": "41",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232653.png",
     "previousTeam": []
+  },
+  {
+    "name": "Marcus Rashford",
+    "team": "Manchester United",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "26",
+    "number": "10",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p176297.png",
+    "previousTeam": []
+  },
+  {
+    "name": "David Raya",
+    "team": "Arsenal",
+    "nationality": "Spain",
+    "position": "Goalkeeper",
+    "age": "28",
+    "number": "22",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p154561.png",
+    "previousTeam": [
+      "Arsenal  (Loan) ",
+      "Brentford"
+    ]
+  },
+  {
+    "name": "Tim Ream",
+    "team": "Fulham",
+    "nationality": "United States",
+    "position": "Defender",
+    "age": "36",
+    "number": "13",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p82514.png",
+    "previousTeam": [
+      "Bolton Wanderers"
+    ]
+  },
+  {
+    "name": "Nathan Redmond",
+    "team": "Burnley",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "29",
+    "number": "15",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p83283.png",
+    "previousTeam": [
+      "Southampton",
+      "Norwich City",
+      "Birmingham City"
+    ]
+  },
+  {
+    "name": "Harrison Reed",
+    "team": "Fulham",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "28",
+    "number": "6",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p153366.png",
+    "previousTeam": [
+      "Fulham  (Loan) ",
+      "Southampton"
+    ]
+  },
+  {
+    "name": "Sergio Reguil\u00f3n",
+    "team": "Manchester United",
+    "nationality": "Spain",
+    "position": "Defender",
+    "age": "27",
+    "number": "15",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p199249.png",
+    "previousTeam": [
+      "Manchester United  (Loan) ",
+      "Tottenham Hotspur"
+    ]
+  },
+  {
+    "name": "Declan Rice",
+    "team": "Arsenal",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "24",
+    "number": "41",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p204480.png",
+    "previousTeam": [
+      "West Ham United"
+    ]
+  },
+  {
+    "name": "Chris Richards",
+    "team": "Crystal Palace",
+    "nationality": "United States",
+    "position": "Defender",
+    "age": "23",
+    "number": "26",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p427623.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Richarlison",
+    "team": "Tottenham Hotspur",
+    "nationality": "Brazil",
+    "position": "Forward",
+    "age": "26",
+    "number": "9",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p212319.png",
+    "previousTeam": [
+      "Everton",
+      "Watford"
+    ]
+  },
+  {
+    "name": "Matt Ritchie",
+    "team": "Newcastle United",
+    "nationality": "Scotland",
+    "position": "Midfielder",
+    "age": "34",
+    "number": "11",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p56983.png",
+    "previousTeam": [
+      "Bournemouth",
+      "Portsmouth"
+    ]
+  },
+  {
+    "name": "Andy Robertson",
+    "team": "Liverpool",
+    "nationality": "Scotland",
+    "position": "Defender",
+    "age": "29",
+    "number": "26",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p122798.png",
+    "previousTeam": [
+      "Hull City"
+    ]
+  },
+  {
+    "name": "Antonee Robinson",
+    "team": "Fulham",
+    "nationality": "United States",
+    "position": "Defender",
+    "age": "26",
+    "number": "33",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p169528.png",
+    "previousTeam": [
+      "Everton"
+    ]
+  },
+  {
+    "name": "Rodri",
+    "team": "Manchester City",
+    "nationality": "Spain",
+    "position": "Midfielder",
+    "age": "27",
+    "number": "16",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p220566.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Rodrigo Muniz",
+    "team": "Fulham",
+    "nationality": "Brazil",
+    "position": "Forward",
+    "age": "22",
+    "number": "19",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244042.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Jay Rodr\u00edguez",
+    "team": "Burnley",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "34",
+    "number": "9",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p44683.png",
+    "previousTeam": [
+      "West Bromwich Albion",
+      "Southampton"
+    ]
+  },
+  {
+    "name": "Mads Roerslev",
+    "team": "Brentford",
+    "nationality": "Denmark",
+    "position": "Defender",
+    "age": "24",
+    "number": "30",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p226956.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Cristian Romero",
+    "team": "Tottenham Hotspur",
+    "nationality": "Argentina",
+    "position": "Defender",
+    "age": "25",
+    "number": "17",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p221632.png",
+    "previousTeam": [
+      "Tottenham Hotspur  (Loan) "
+    ]
+  },
+  {
+    "name": "Joe Rothwell",
+    "team": "Bournemouth",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "28",
+    "number": "8",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p156685.png",
+    "previousTeam": [
+      "Manchester United"
+    ]
+  },
+  {
+    "name": "R\u00faben Dias",
+    "team": "Manchester City",
+    "nationality": "Portugal",
+    "position": "Defender",
+    "age": "26",
+    "number": "3",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p171314.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Bukayo Saka",
+    "team": "Arsenal",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "22",
+    "number": "7",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p223340.png",
+    "previousTeam": []
+  },
+  {
+    "name": "William Saliba",
+    "team": "Arsenal",
+    "nationality": "France",
+    "position": "Defender",
+    "age": "22",
+    "number": "2",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p462424.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Robert S\u00e1nchez",
+    "team": "Chelsea",
+    "nationality": "Spain",
+    "position": "Goalkeeper",
+    "age": "26",
+    "number": "1",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p215059.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion"
+    ]
+  },
+  {
+    "name": "Ibrahim Sangar\u00e9",
+    "team": "Nottingham Forest",
+    "nationality": "Cote D\u2019Ivoire",
+    "position": "Midfielder",
+    "age": "26",
+    "number": "6",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p210462.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Pablo Sarabia",
+    "team": "Wolverhampton Wanderers",
+    "nationality": "Spain",
+    "position": "Midfielder",
+    "age": "31",
+    "number": "21",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p88484.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Kevin Schade",
+    "team": "Brentford",
+    "nationality": "Germany",
+    "position": "Midfielder",
+    "age": "22",
+    "number": "9",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p513418.png",
+    "previousTeam": [
+      "Brentford  (Loan) "
+    ]
+  },
+  {
+    "name": "Fabian Sch\u00e4r",
+    "team": "Newcastle United",
+    "nationality": "Switzerland",
+    "position": "Defender",
+    "age": "32",
+    "number": "5",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p119471.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Jeffrey Schlupp",
+    "team": "Crystal Palace",
+    "nationality": "Ghana",
+    "position": "Midfielder",
+    "age": "30",
+    "number": "15",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p86417.png",
+    "previousTeam": [
+      "Leicester City"
+    ]
+  },
+  {
+    "name": "Antoine Semenyo",
+    "team": "Bournemouth",
+    "nationality": "Ghana",
+    "position": "Forward",
+    "age": "23",
+    "number": "24",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p437730.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Marcos Senesi",
+    "team": "Bournemouth",
+    "nationality": "Argentina",
+    "position": "Defender",
+    "age": "26",
+    "number": "25",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p221466.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Luke Shaw",
+    "team": "Manchester United",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "28",
+    "number": "23",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p106760.png",
+    "previousTeam": [
+      "Southampton"
+    ]
+  },
+  {
+    "name": "Luis Sinisterra",
+    "team": "Bournemouth",
+    "nationality": "Colombia",
+    "position": "Forward",
+    "age": "24",
+    "number": "17",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p224995.png",
+    "previousTeam": [
+      "Bournemouth  (Loan) ",
+      "Leeds United"
+    ]
+  },
+  {
+    "name": "Oliver Skipp",
+    "team": "Tottenham Hotspur",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "23",
+    "number": "4",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209042.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Emile Smith Rowe",
+    "team": "Arsenal",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "23",
+    "number": "10",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209289.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Dominic Solanke",
+    "team": "Bournemouth",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "26",
+    "number": "9",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p154566.png",
+    "previousTeam": [
+      "Liverpool",
+      "Chelsea"
+    ]
+  },
+  {
+    "name": "Manor Solomon",
+    "team": "Tottenham Hotspur",
+    "nationality": "Israel",
+    "position": "Forward",
+    "age": "24",
+    "number": "27",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p235674.png",
+    "previousTeam": [
+      "Fulham  (Loan) "
+    ]
+  },
+  {
+    "name": "Son Heung-Min",
+    "team": "Tottenham Hotspur",
+    "nationality": "South Korea",
+    "position": "Forward",
+    "age": "31",
+    "number": "7",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p85971.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Tom\u00e1s Soucek",
+    "team": "West Ham United",
+    "nationality": "Czech Republic",
+    "position": "Midfielder",
+    "age": "28",
+    "number": "28",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p215439.png",
+    "previousTeam": [
+      "West Ham United  (Loan) "
+    ]
+  },
+  {
+    "name": "Jason Steele",
+    "team": "Brighton & Hove Albion",
+    "nationality": "England",
+    "position": "Goalkeeper",
+    "age": "33",
+    "number": "23",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p49262.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion",
+      "Middlesbrough"
+    ]
+  },
+  {
+    "name": "Raheem Sterling",
+    "team": "Chelsea",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "29",
+    "number": "7",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p103955.png",
+    "previousTeam": [
+      "Manchester City",
+      "Liverpool"
+    ]
+  },
+  {
+    "name": "John Stones",
+    "team": "Manchester City",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "29",
+    "number": "5",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p97299.png",
+    "previousTeam": [
+      "Everton"
+    ]
+  },
+  {
+    "name": "Dominik Szoboszlai",
+    "team": "Liverpool",
+    "nationality": "Hungary",
+    "position": "Midfielder",
+    "age": "23",
+    "number": "8",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p424876.png",
+    "previousTeam": []
+  },
+  {
+    "name": "James Tarkowski",
+    "team": "Everton",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "31",
+    "number": "6",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p17761.png",
+    "previousTeam": [
+      "Burnley"
+    ]
+  },
+  {
+    "name": "Marcus Tavernier",
+    "team": "Bournemouth",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "24",
+    "number": "16",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p201658.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Charlie Taylor",
+    "team": "Burnley",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "30",
+    "number": "3",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p103914.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Kenny Tete",
+    "team": "Fulham",
+    "nationality": "Netherlands",
+    "position": "Defender",
+    "age": "28",
+    "number": "2",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p167074.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Thiago Silva",
+    "team": "Chelsea",
+    "nationality": "Brazil",
+    "position": "Defender",
+    "age": "39",
+    "number": "6",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p51090.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Youri Tielemans",
+    "team": "Aston Villa",
+    "nationality": "Belgium",
+    "position": "Midfielder",
+    "age": "26",
+    "number": "8",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p166989.png",
+    "previousTeam": [
+      "Leicester City",
+      "Leicester City  (Loan) "
+    ]
+  },
+  {
+    "name": "Harry Toffolo",
+    "team": "Nottingham Forest",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "28",
+    "number": "15",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p114241.png",
+    "previousTeam": [
+      "Norwich City"
+    ]
+  },
+  {
+    "name": "Takehiro Tomiyasu",
+    "team": "Arsenal",
+    "nationality": "Japan",
+    "position": "Defender",
+    "age": "25",
+    "number": "18",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p223723.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Sandro Tonali",
+    "team": "Newcastle United",
+    "nationality": "Italy",
+    "position": "Midfielder",
+    "age": "23",
+    "number": "8",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p432422.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Pau Torres",
+    "team": "Aston Villa",
+    "nationality": "Spain",
+    "position": "Defender",
+    "age": "26",
+    "number": "14",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244954.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Toti Gomes",
+    "team": "Wolverhampton Wanderers",
+    "nationality": "Portugal",
+    "position": "Defender",
+    "age": "24",
+    "number": "24",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p510362.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Andros Townsend",
+    "team": "Luton Town",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "32",
+    "number": "30",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p60252.png",
+    "previousTeam": [
+      "Everton",
+      "Crystal Palace",
+      "Newcastle United",
+      "Tottenham Hotspur",
+      "Queens Park Rangers  (Loan) ",
+      "Birmingham City"
+    ]
+  },
+  {
+    "name": "James Trafford",
+    "team": "Burnley",
+    "nationality": "England",
+    "position": "Goalkeeper",
+    "age": "21",
+    "number": "1",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p432720.png",
+    "previousTeam": [
+      "Manchester City",
+      "Manchester City U21"
+    ]
+  },
+  {
+    "name": "Mike Tr\u00e9sor",
+    "team": "Burnley",
+    "nationality": "Belgium",
+    "position": "Forward",
+    "age": "24",
+    "number": "31",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p437748.png",
+    "previousTeam": [
+      "Burnley  (Loan) "
+    ]
+  },
+  {
+    "name": "Kieran Trippier",
+    "team": "Newcastle United",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "33",
+    "number": "2",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p77794.png",
+    "previousTeam": [
+      "Tottenham Hotspur",
+      "Burnley",
+      "Manchester City"
+    ]
+  },
+  {
+    "name": "Leandro Trossard",
+    "team": "Arsenal",
+    "nationality": "Belgium",
+    "position": "Forward",
+    "age": "29",
+    "number": "19",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p116216.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion"
+    ]
+  },
+  {
+    "name": "Auston Trusty",
+    "team": "Sheffield United",
+    "nationality": "United States",
+    "position": "Defender",
+    "age": "25",
+    "number": "5",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p201410.png",
+    "previousTeam": [
+      "Arsenal"
+    ]
+  },
+  {
+    "name": "Kostas Tsimikas",
+    "team": "Liverpool",
+    "nationality": "Greece",
+    "position": "Defender",
+    "age": "27",
+    "number": "21",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p214285.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Matt Turner",
+    "team": "Nottingham Forest",
+    "nationality": "United States",
+    "position": "Goalkeeper",
+    "age": "29",
+    "number": "1",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p224068.png",
+    "previousTeam": [
+      "Arsenal"
+    ]
+  },
+  {
+    "name": "Destiny Udogie",
+    "team": "Tottenham Hotspur",
+    "nationality": "Italy",
+    "position": "Defender",
+    "age": "21",
+    "number": "38",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p487053.png",
+    "previousTeam": [
+      "Tottenham Hotspur  (Loan) "
+    ]
+  },
+  {
+    "name": "Lesley Ugochukwu",
+    "team": "Chelsea",
+    "nationality": "France",
+    "position": "Midfielder",
+    "age": "19",
+    "number": "16",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p503714.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Micky van de Ven",
+    "team": "Tottenham Hotspur",
+    "nationality": "Netherlands",
+    "position": "Defender",
+    "age": "22",
+    "number": "37",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p491279.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Virgil van Dijk",
+    "team": "Liverpool",
+    "nationality": "Netherlands",
+    "position": "Defender",
+    "age": "32",
+    "number": "4",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p97032.png",
+    "previousTeam": [
+      "Southampton"
+    ]
+  },
+  {
+    "name": "Jan Paul van Hecke",
+    "team": "Brighton & Hove Albion",
+    "nationality": "Netherlands",
+    "position": "Defender",
+    "age": "23",
+    "number": "29",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p469142.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion"
+    ]
+  },
+  {
+    "name": "Rapha\u00ebl Varane",
+    "team": "Manchester United",
+    "nationality": "France",
+    "position": "Defender",
+    "age": "30",
+    "number": "19",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p90152.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Alejo V\u00e9liz",
+    "team": "Tottenham Hotspur",
+    "nationality": "Argentina",
+    "position": "Forward",
+    "age": "20",
+    "number": "36",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p536908.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Jo\u00ebl Veltman",
+    "team": "Brighton & Hove Albion",
+    "nationality": "Netherlands",
+    "position": "Defender",
+    "age": "31",
+    "number": "34",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p111478.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion"
+    ]
+  },
+  {
+    "name": "Bart Verbruggen",
+    "team": "Brighton & Hove Albion",
+    "nationality": "Netherlands",
+    "position": "Goalkeeper",
+    "age": "21",
+    "number": "1",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p489639.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion"
+    ]
+  },
+  {
+    "name": "Guglielmo Vicario",
+    "team": "Tottenham Hotspur",
+    "nationality": "Italy",
+    "position": "Goalkeeper",
+    "age": "27",
+    "number": "13",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184254.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Vinicius Souza",
+    "team": "Sheffield United",
+    "nationality": "Brazil",
+    "position": "Midfielder",
+    "age": "24",
+    "number": "21",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p424001.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Vitinho",
+    "team": "Burnley",
+    "nationality": "Brazil",
+    "position": "Defender",
+    "age": "24",
+    "number": "22",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p441455.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Odysseas Vlachodimos",
+    "team": "Nottingham Forest",
+    "nationality": "Greece",
+    "position": "Goalkeeper",
+    "age": "29",
+    "number": "23",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p111452.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Kyle Walker",
+    "team": "Manchester City",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "33",
+    "number": "2",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p58621.png",
+    "previousTeam": [
+      "Tottenham Hotspur",
+      "Aston Villa  (Loan) "
+    ]
+  },
+  {
+    "name": "Aaron Wan-Bissaka",
+    "team": "Manchester United",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "26",
+    "number": "29",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p214590.png",
+    "previousTeam": [
+      "Crystal Palace"
+    ]
+  },
+  {
+    "name": "Joel Ward",
+    "team": "Crystal Palace",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "34",
+    "number": "2",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p55494.png",
+    "previousTeam": [
+      "Portsmouth"
+    ]
+  },
+  {
+    "name": "James Ward-Prowse",
+    "team": "West Ham United",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "29",
+    "number": "7",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p101178.png",
+    "previousTeam": [
+      "Southampton"
+    ]
+  },
+  {
+    "name": "Ollie Watkins",
+    "team": "Aston Villa",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "27",
+    "number": "11",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p178301.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Adam Webster",
+    "team": "Brighton & Hove Albion",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "28",
+    "number": "4",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p110735.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion"
+    ]
+  },
+  {
+    "name": "Danny Welbeck",
+    "team": "Brighton & Hove Albion",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "33",
+    "number": "18",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p50175.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion",
+      "Watford",
+      "Arsenal",
+      "Manchester United",
+      "Sunderland  (Loan) "
+    ]
+  },
+  {
+    "name": "Ben White",
+    "team": "Arsenal",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "26",
+    "number": "4",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p198869.png",
+    "previousTeam": [
+      "Brighton &amp; Hove Albion",
+      "Leeds United  (Loan) "
+    ]
+  },
+  {
+    "name": "Willian",
+    "team": "Fulham",
+    "nationality": "Brazil",
+    "position": "Forward",
+    "age": "35",
+    "number": "20",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p47431.png",
+    "previousTeam": [
+      "Arsenal",
+      "Chelsea"
+    ]
+  },
+  {
+    "name": "Harry Wilson",
+    "team": "Fulham",
+    "nationality": "Wales",
+    "position": "Midfielder",
+    "age": "26",
+    "number": "8",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p153682.png",
+    "previousTeam": [
+      "Liverpool",
+      "Bournemouth  (Loan) "
+    ]
+  },
+  {
+    "name": "Yoane Wissa",
+    "team": "Brentford",
+    "nationality": "DR Congo",
+    "position": "Midfielder",
+    "age": "27",
+    "number": "11",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p216646.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Chris Wood",
+    "team": "Nottingham Forest",
+    "nationality": "New Zealand",
+    "position": "Forward",
+    "age": "32",
+    "number": "11",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p60689.png",
+    "previousTeam": [
+      "Nottingham Forest  (Loan) ",
+      "Newcastle United",
+      "Burnley",
+      "Leicester City",
+      "Millwall",
+      "Birmingham City",
+      "West Bromwich Albion"
+    ]
+  },
+  {
+    "name": "Cauley Woodrow",
+    "team": "Luton Town",
+    "nationality": "England",
+    "position": "Forward",
+    "age": "29",
+    "number": "10",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p91046.png",
+    "previousTeam": [
+      "Fulham"
+    ]
+  },
+  {
+    "name": "Joe Worrall",
+    "team": "Nottingham Forest",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "26",
+    "number": "4",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p208912.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Yehor Yarmoliuk",
+    "team": "Brentford",
+    "nationality": "Ukraine",
+    "position": "Midfielder",
+    "age": "19",
+    "number": "33",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p508395.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Ryan Yates",
+    "team": "Nottingham Forest",
+    "nationality": "England",
+    "position": "Midfielder",
+    "age": "26",
+    "number": "22",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p204968.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Ashley Young",
+    "team": "Everton",
+    "nationality": "England",
+    "position": "Defender",
+    "age": "38",
+    "number": "18",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p18892.png",
+    "previousTeam": [
+      "Aston Villa",
+      "Manchester United",
+      "Watford"
+    ]
+  },
+  {
+    "name": "Youssef Chermiti",
+    "team": "Everton",
+    "nationality": "Portugal",
+    "position": "Forward",
+    "age": "19",
+    "number": "28",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p491012.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Illia Zabarnyi",
+    "team": "Bournemouth",
+    "nationality": "Ukraine",
+    "position": "Defender",
+    "age": "21",
+    "number": "27",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p477580.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Nicol\u00f2 Zaniolo",
+    "team": "Aston Villa",
+    "nationality": "Italy",
+    "position": "Midfielder",
+    "age": "24",
+    "number": "22",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p245414.png",
+    "previousTeam": [
+      "Aston Villa  (Loan) "
+    ]
+  },
+  {
+    "name": "Anass Zaroury",
+    "team": "Burnley",
+    "nationality": "Morocco",
+    "position": "Forward",
+    "age": "23",
+    "number": "19",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p511783.png",
+    "previousTeam": []
+  },
+  {
+    "name": "Oleksandr Zinchenko",
+    "team": "Arsenal",
+    "nationality": "Ukraine",
+    "position": "Defender",
+    "age": "27",
+    "number": "35",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p206325.png",
+    "previousTeam": [
+      "Manchester City"
+    ]
+  },
+  {
+    "name": "Kurt Zouma",
+    "team": "West Ham United",
+    "nationality": "France",
+    "position": "Defender",
+    "age": "29",
+    "number": "4",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p103192.png",
+    "previousTeam": [
+      "Chelsea",
+      "Everton  (Loan) ",
+      "Stoke City  (Loan) "
+    ]
+  },
+  {
+    "name": "Martin \u00d8degaard",
+    "team": "Arsenal",
+    "nationality": "Norway",
+    "position": "Midfielder",
+    "age": "25",
+    "number": "8",
+    "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184029.png",
+    "previousTeam": [
+      "Arsenal  (Loan) "
+    ]
   }
 ] 
