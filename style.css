@@ -74,12 +74,13 @@ body{
 
 .modal-flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 #reveal-hide-button-container{
-    margin-left: auto;
+    display: flex;
+    justify-content: end;
 }
 
 .how-to-play-hide, .stats-hide, .player-silhouette-hide, .reveal-hide{
@@ -90,6 +91,56 @@ body{
     background-color: #FFFFFF;
     border: 0px;
     font-size: 25px;
+}
+
+#stats-hide-container{
+    display: flex;
+    justify-content: end;
+}
+
+#how-to-play-hide-container{
+    display: flex;
+    justify-content: end;
+}
+
+dialog p, dialog li{
+    font-family: sans-serif;
+    list-style: none;
+    color: #37003c;
+}
+
+li{
+    padding-bottom: 20px;
+}
+
+h2{
+    color: #37003c;
+    font-size: 40px;
+}
+
+#match-preview{
+    background-color: #228B22;
+    color: #FFFFFF;
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#almost-match-preview{
+    background-color: #FFD300;
+    color: black;
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#show-silhouette-preview{
+    color: #FFFFFF;
+    background-color: #37003c;
+    border: solid  #37003c;
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 /* Title Styles */
@@ -170,6 +221,10 @@ h1 {
 
 .reveal-mystery-player{
    text-align: center;
+}
+
+.reveal-mystery-player p{
+    font-size: 20px;
 }
 
 input {
