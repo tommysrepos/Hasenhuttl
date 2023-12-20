@@ -42,7 +42,7 @@ var playerList = [
     "number": "24",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p535818.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -68,7 +68,7 @@ var playerList = [
   {
     "name": "Anel Ahmedhodzic",
     "team": "Sheffield United",
-    "nationality": "Bosnia &amp; Herzegovina",
+    "nationality": "Bosnia & Herzegovina",
     "position": "Defender",
     "age": "24",
     "number": "15",
@@ -355,7 +355,7 @@ var playerList = [
     "number": "20",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p535301.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -512,7 +512,7 @@ var playerList = [
     "number": "8",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p227127.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -674,7 +674,7 @@ var playerList = [
     "number": "40",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p536916.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -698,7 +698,7 @@ var playerList = [
     "number": "33",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p78916.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion",
+      "Brighton & Hove Albion",
       "Fulham"
     ]
   },
@@ -711,7 +711,7 @@ var playerList = [
     "number": "25",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p486672.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -870,7 +870,7 @@ var playerList = [
     "number": "3",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p179268.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -894,7 +894,7 @@ var playerList = [
     "number": "8",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p168090.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -1165,7 +1165,7 @@ var playerList = [
     "number": "5",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p83299.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -1289,7 +1289,7 @@ var playerList = [
     "number": "30",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p204214.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -1345,7 +1345,7 @@ var playerList = [
     "number": "31",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465607.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion  (Loan) "
+      "Brighton & Hove Albion  (Loan) "
     ]
   },
   {
@@ -1357,7 +1357,7 @@ var playerList = [
     "number": "28",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p487117.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -1556,7 +1556,7 @@ var playerList = [
     "number": "11",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p243568.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion",
+      "Brighton & Hove Albion",
       "Chelsea",
       "Norwich City  (Loan) "
     ]
@@ -1602,7 +1602,7 @@ var playerList = [
     "number": "13",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p60307.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -1735,7 +1735,7 @@ var playerList = [
     "number": "41",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p532529.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -1817,7 +1817,7 @@ var playerList = [
     "number": "3",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p223434.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -1943,7 +1943,7 @@ var playerList = [
     "number": "9",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p475168.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion",
+      "Brighton & Hove Albion",
       "Watford"
     ]
   },
@@ -2197,7 +2197,7 @@ var playerList = [
     "number": "14",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p39155.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion",
+      "Brighton & Hove Albion",
       "Liverpool",
       "Southampton"
     ]
@@ -2211,7 +2211,7 @@ var playerList = [
     "number": "2",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232792.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion",
+      "Brighton & Hove Albion",
       "Chelsea"
     ]
   },
@@ -2382,7 +2382,7 @@ var playerList = [
     "number": "10",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p243016.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -2440,7 +2440,7 @@ var playerList = [
     "number": "7",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p109345.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -2522,7 +2522,7 @@ var playerList = [
     "previousTeam": [
       "Brentford  (Loan) ",
       "Everton",
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -2634,7 +2634,7 @@ var playerList = [
     "number": "6",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p15157.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion",
+      "Brighton & Hove Albion",
       "Liverpool",
       "Manchester City",
       "Aston Villa",
@@ -2662,7 +2662,7 @@ var playerList = [
     "number": "22",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p451340.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -2825,7 +2825,7 @@ var playerList = [
     "number": "16",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p79934.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion",
+      "Brighton & Hove Albion",
       "Fulham  (Loan) ",
       "Coventry City",
       "Manchester United"
@@ -3362,7 +3362,7 @@ var playerList = [
     "number": "1",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p215059.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -3540,7 +3540,7 @@ var playerList = [
     "number": "23",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p49262.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion",
+      "Brighton & Hove Albion",
       "Middlesbrough"
     ]
   },
@@ -3761,7 +3761,7 @@ var playerList = [
     "number": "19",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p116216.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -3851,7 +3851,7 @@ var playerList = [
     "number": "29",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p469142.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -3883,7 +3883,7 @@ var playerList = [
     "number": "34",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p111478.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -3895,7 +3895,7 @@ var playerList = [
     "number": "1",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p489639.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -4006,7 +4006,7 @@ var playerList = [
     "number": "4",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p110735.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion"
+      "Brighton & Hove Albion"
     ]
   },
   {
@@ -4018,7 +4018,7 @@ var playerList = [
     "number": "18",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p50175.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion",
+      "Brighton & Hove Albion",
       "Watford",
       "Arsenal",
       "Manchester United",
@@ -4034,7 +4034,7 @@ var playerList = [
     "number": "4",
     "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p198869.png",
     "previousTeam": [
-      "Brighton &amp; Hove Albion",
+      "Brighton & Hove Albion",
       "Leeds United  (Loan) "
     ]
   },
