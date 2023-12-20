@@ -3,6 +3,10 @@ Premier League guess-the-player app
 
 Changelog (MM/DD/YY):
 
+12/20/23 - Changed css rules so that modal font family is sans-serif and font size is larger. Instructions were too hard to read. Added spans tags with css rules to the how-to-play modal so that the user will know what match and almost match looks like before their first guess.
+
+Added href for gmail and github
+
 12/19/23 - Created player-data.js as destination to write output of selenium script. Fixed spelling error in selenium script file name. 
 
 Added img element in html file to dynamically add src attribute value of mysteryPlayer.image. This will display the mystery player's picture from the premier league official website. 
