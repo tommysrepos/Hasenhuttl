@@ -259,9 +259,9 @@ function hintGenerator(userChoice){
         for(let i = 0; i < playerList.length; i++){
             if(userChoice == playerList[i].name){
                 if(playerList[i].number > mysteryPlayer.number){
-                    clueCard6Text.textContent = `${downArrow} ${playerList[i].number}`
+                    clueCard6Text.textContent = `↓ ${playerList[i].number}`
                 }else if(playerList[i].number < mysteryPlayer.number){
-                    clueCard6Text.textContent = `${upArrow} ${playerList[i].number}`
+                    clueCard6Text.textContent = `↑ ${playerList[i].number}`
                 }else if(playerList[i].number == mysteryPlayer.number){
                     clueCard6.classList.add('match');
                     clueCard6Text.textContent = `${playerList[i].number}`
