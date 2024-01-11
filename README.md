@@ -3,6 +3,8 @@ Premier League guess-the-player app
 
 Changelog (MM/DD/YY):
 
+01/11/24 - Working on making the display better for phone screens. lowered the margin between clue cards.
+
 12/20/23 - Changed css rules so that modal font family is sans-serif and font size is larger. Instructions were too hard to read. Added spans tags with css rules to the how-to-play modal so that the user will know what match and almost match looks like before their first guess.
 
 Added href for gmail and github
