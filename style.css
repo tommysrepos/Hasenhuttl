@@ -245,7 +245,7 @@ input {
 #hint-category-container{
     display: grid;
     /* grid-template-rows: 90%; */
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     /* grid-template-columns: 300px 100px 100px 100px 100px 100px; */
     gap: 20px;
     place-content: center;
@@ -263,9 +263,9 @@ input {
 .hint-bar{
     display: grid;
     /* grid-template-rows: 90%; */
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     /* grid-template-columns: 300px 100px 100px 100px 100px 100px; */
-    gap: 20px;
+    gap: 2px;
     place-content: center;
     background-color: white;
     height: 80px;
